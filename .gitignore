@@ -1,0 +1,93 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter notebooks checkpoint
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MuJoCo temporary/runtime files
+*.log
+*.tga
+*.png
+*.svg
+*.bak
+*.mjcf.cache
+*.mjb
+*.rec
+*.raw
+*.h5
+
+# Checkpoints, logs and tensorboard
+logs/
+checkpoints/
+*.ckpt
+*.tfevents.*
+*.pb
+*.onnx
+*.npz
+*.npy
+
+# Results and generated outputs
+results/
+output/
+*.csv
+*.mp4
+*.gif
+*.txt
+
+# Trained models
+models/
+saved_models/
+
+# Environment and dependencies
+.env
+.venv/
+env/
+venv/
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# PlatformIO firmware 
+.pio/
+.pioenvs/
+.pio/build/
+.pio/libdeps/
+.pio/test/
+.pio/lib/
+
+# Arduino-generated files
+*.elf
+*.hex
+*.bin
+
+# ROS 2 build and logs
+build/
+install/
+log/
+.colcon/
+
+# Mesh and URDF backups
+meshes/*.stl~
+*.urdf~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
