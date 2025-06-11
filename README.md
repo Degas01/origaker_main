@@ -1,75 +1,142 @@
-Origaker: Autonomous Locomotion and Reconfiguration for a Metamorphic Robot
+# 🦾 Origaker: Autonomous Locomotion and Reconfiguration for a Metamorphic Robot
 
-Origaker is a research-grade quadrupedal robot platform capable of morphing its body configuration across multiple locomotion modes—mammal, reptile, and arthropod—using hybrid control strategies. This repository contains the full pipeline to simulate, train, and validate adaptive locomotion and autonomous reconfiguration using Central Pattern Generators (CPGs) and Reinforcement Learning (RL) techniques in MuJoCo and on physical hardware.
+![Origaker Banner](docs/banner.png)
 
-1.0 Project Overview
+![License](https://img.shields.io/github/license/your-org/origaker)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-2.3.7-green)
+![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-PPO-orange)
+![ROS2](https://img.shields.io/badge/ROS2-Foxy-purple)
 
-This project addresses the challenge of enabling autonomous decision-making for gait and morphology switching in reconfigurable legged robots. By integrating hybrid CPG models with PPO-trained RL policies, we demonstrate:
+---
 
-- Dynamic gait transitions across terrains
+### 🤖 Description
+**Origaker** is a reconfigurable quadruped robot developed for autonomous gait adaptation and dynamic morphology control across unstructured terrains. This repository contains the **full sim-to-real pipeline** for:
 
-- Robust domain randomization and sim-to-real transfer
+- Hybrid CPG design
+- PPO-based reinforcement learning
+- Calibrated MuJoCo simulation
+- Serial-based Arduino control interface
+- Physical validation with onboard logging
 
-- Real-time control via serial communication
+The project is structured across 12 methodical stages, covering both software and hardware implementation.
 
-- Modular testbed validation on physical Origaker units
+---
 
-2.0 Core Features
+### 📸 Demo
 
-- Hybrid CPG implementation (Matsuoka + Hopf oscillators)
+![Origaker Gait Demo](docs/origaker_gait.gif)
 
-- Reward shaping and PPO optimization using Stable-Baselines3
+---
 
-- MuJoCo simulation with calibrated contact dynamics
+### ✨ Key Features
 
-- Domain randomization with customizable terrain physics
+- Hybrid **Hopf–Matsuoka CPG Oscillators** for multi-modal gait generation
+- Physics-grounded **reward shaping** for energy, jerk, and stability
+- **Domain randomization** for terrain, friction, mass and dynamics
+- **Real-time gait perturbation recovery** & phase analysis
+- Fully parametric MJCF simulation & ".urdf" → ".xml" converter
+- **Live serial control** from PPO policy via ROS2–Arduino bridge
+- Plotting tools: **TensorBoard**, gait overlays, contact maps, perturbation tests
 
-- Arduino-based control bridge for physical actuation
+---
 
-- Gait evaluation tools: perturbation, energy, stability, path tracking
+### 🛠 Installation
 
-3.0 Folder Structure
+#### 🐍 Python Environment
+```bash
+conda create -n origaker_env python=3.10
+conda activate origaker_env
+pip install -r requirements.txt
+```
 
-├── origaker_sim/             # MJCF files, domain randomization, simulation tools
-├── origaker_control/        # PPO training, reward shaping, CPG models
-├── origaker_firmware/       # Arduino serial controller for actuator commands
-├── origaker_analysis/       # Scripts for evaluation, plotting, perturbation tests
-├── origaker_visualization/  # TensorBoard logs, gait plots, phase diagrams
-├── results/                 # Logged simulation & physical results
-├── docs/                    # Final report, presentation, diagrams
-└── README.md                
+#### 💻 MuJoCo Setup
+1. Download [MuJoCo 2.3.x](https://mujoco.org/)
+2. Set environment variable:
+```bash
+export MUJOCO_PY_MUJOCO_PATH="/path/to/mujoco"
+```
 
-4.0 Requirements
+#### 🤖 Firmware (for physical testing)
+```bash
+cd origaker_firmware/
+platformio run --target upload
+```
 
-- MuJoCo
+---
 
-- Python 3.10+
+### 🚀 Usage
 
-- Stable-Baselines3
+#### 🔬 Train PPO Policy
+```bash
+python origaker_control/train_ppo.py --env Origaker-v0 --tensorboard-log logs/
+```
 
-- PyMuJoCo
+#### 📊 Visualize Results
+```bash
+tensorboard --logdir=logs/
+```
 
-- Arduino IDE / PlatformIO
+#### 🧪 Evaluate Gait Perturbations
+```bash
+python origaker_analysis/evaluate_perturbation_response.py
+```
 
-- Teensy 4.1 (for hardware control, optional)
+#### 🎮 Drive Real Robot (via Serial)
+```bash
+ros2 run origaker_serial_bridge controller_node.py
+```
 
-5.0 Results
+---
 
-- 22% improvement in energy efficiency over baseline CPGs
+### 🧱 Project Structure
 
-- 35% faster recovery from gait perturbations
+```
+├── origaker_sim/             # MJCF, URDF, domain randomization
+├── origaker_control/        # CPGs, PPO, reward shaping, training
+├── origaker_firmware/       # Teensy/Arduino microcontroller firmware
+├── origaker_analysis/       # Evaluation tools and visualization scripts
+├── origaker_serial_bridge/  # ROS2 serial communication (Stage 9)
+├── docs/                    # Project report, diagrams, banner, GIFs
+└── README.md                # This file
+```
 
-- Stable reconfiguration across three locomotion modes
+---
 
-- Physically validated results using onboard sensors and synchronized data logging
+### 📈 Logging & Monitoring
+- TensorBoard
+- `results/logs.csv` for reward trends, perturbation, energy
+- `compare_gaits.py` for gait overlays
+- `plot_foot_contacts.py` to visualize foot-ground impacts
 
-License
+---
 
-This project is developed for academic research and follows an open-source MIT License.
+### 🤝 Contributing
+We welcome contributions! Feel free to submit issues, PRs, or questions.
+Please follow our [CONTRIBUTING.md](docs/CONTRIBUTING.md) guidelines.
 
-Citation
+---
 
-If you use this project in your research, please cite:
+### 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
-G. Masone, “Autonomous Reconfiguration and Navigation for a Metamorphic Quadruped Robot,” MSc Dissertation, King’s College London, 2025.
+---
 
+### 📚 References
+- Tang et al., "Origaker: A Reconfigurable Metamorphic Robot for Dynamic Locomotion", *IEEE RA-L*, 2022
+- Schulman et al., "Proximal Policy Optimization Algorithms", *OpenAI*, 2017
+- Micro-ROS & ROS 2 Docs: [https://micro.ros.org/](https://micro.ros.org/)
+
+---
+
+### 🔗 Citation
+> G. Masone, “Autonomous Reconfiguration and Navigation for a Metamorphic Quadruped Robot,” MSc Dissertation, King’s College London, 2025.
+
+---
+
+### 🌍 Contact
+For academic queries, contact: `your_email@kcl.ac.uk`
+
+---
+
+🧠 Powered by MuJoCo + ROS 2 + Stable-Baselines3
