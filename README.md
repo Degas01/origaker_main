@@ -28,7 +28,7 @@ This project addresses the challenge of enabling autonomous decision-making for 
 
 - Gait evaluation tools: perturbation, energy, stability, path tracking
 
-🧹 Folder Structure
+3.0 Folder Structure
 
 ├── origaker_sim/             # MJCF files, domain randomization, simulation tools
 ├── origaker_control/        # PPO training, reward shaping, CPG models
@@ -37,9 +37,9 @@ This project addresses the challenge of enabling autonomous decision-making for 
 ├── origaker_visualization/  # TensorBoard logs, gait plots, phase diagrams
 ├── results/                 # Logged simulation & physical results
 ├── docs/                    # Final report, presentation, diagrams
-└── README.md                # You're here!
+└── README.md                
 
-3.0 Requirements
+4.0 Requirements
 
 - MuJoCo
 
@@ -53,7 +53,7 @@ This project addresses the challenge of enabling autonomous decision-making for 
 
 - Teensy 4.1 (for hardware control, optional)
 
-4.0 Results
+5.0 Results
 
 - 22% improvement in energy efficiency over baseline CPGs
 
@@ -71,5 +71,5 @@ Citation
 
 If you use this project in your research, please cite:
 
-G. [Your Last Name], “Autonomous Reconfiguration and Navigation for a Metamorphic Quadruped Robot,” MSc Dissertation, King’s College London, 2025.
+G. Masone, “Autonomous Reconfiguration and Navigation for a Metamorphic Quadruped Robot,” MSc Dissertation, King’s College London, 2025.
 
