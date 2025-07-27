@@ -39,9 +39,17 @@
     🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_hero_shot.jpg" alt="Origaker Robot in Action" width="800"/>
+
+*🎬 Watch Origaker in action - Autonomous navigation through complex terrain*
+
+https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.mp4
+
 </div>
 
 ---
+
+<div align="center">
 
 ## 📋 **Table of Contents**
 
@@ -62,11 +70,13 @@
 
 </details>
 
+</div>
+
 ---
 
-## 🌟 **Overview**
-
 <div align="center">
+
+## 🌟 **Overview**
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -76,26 +86,32 @@
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-</div>
-
 **Origaker** is an advanced autonomous quadruped robot that pushes the boundaries of what's possible in robotics. By combining **bio-inspired locomotion** patterns, **deep reinforcement learning**, and **adaptive morphology**, Origaker can navigate complex environments with unprecedented efficiency and intelligence.
+
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_cad_design.png" alt="Origaker CAD Design" width="600"/>
+
+*🔧 Detailed CAD design showing the adaptive morphology capabilities*
 
 ### 🎯 **Mission Statement**
 
 > *"To bridge the gap between biological locomotion and artificial intelligence, creating robots that move and think like living organisms while surpassing their capabilities."*
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/bio_inspiration.jpg" alt="Biological Inspiration" width="700"/>
+
+*🧬 Bio-inspired design principles from animal locomotion studies*
+
+</div>
+
 ---
 
-## ✨ **Key Features**
-
 <div align="center">
+
+## ✨ **Key Features**
 
 | 🧬 **Bio-Inspired** | 🤖 **AI-Powered** | 👁️ **Perception** | 🔄 **Adaptive** |
 |:---:|:---:|:---:|:---:|
 | Matsuoka & Hopf Oscillators | PPO Deep RL | Computer Vision SLAM | Morphology Reconfiguration |
 | Central Pattern Generators | Neural Network Control | Real-time Mapping | Dynamic Mode Switching |
-
-</div>
 
 ### 🔥 **Core Capabilities**
 
@@ -107,6 +123,10 @@
 └─ Rough Terrain      └─ Path Planning      └─ Localization      └─ Auto-switching
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/feature_showcase.gif" alt="Feature Showcase" width="800"/>
+
+*🎬 Dynamic feature demonstration - CPG locomotion, SLAM mapping, and morphology switching*
+
 ### 🏆 **What Makes Origaker Special**
 
 - 🔬 **First-of-its-kind** hybrid CPG-RL locomotion system
@@ -115,11 +135,13 @@
 - ⚡ **Sub-2-second** morphology reconfiguration
 - 📈 **15% more efficient** than traditional quadruped controllers
 
+</div>
+
 ---
 
-## 🏗️ **System Architecture**
-
 <div align="center">
+
+## 🏗️ **System Architecture**
 
 ```
                     ╔══════════════════════════════════════════════════════╗
@@ -146,7 +168,9 @@
           ╚═══════════════════════════════════════════════════════════╝
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/system_architecture_diagram.png" alt="System Architecture" width="900"/>
+
+*🏗️ Detailed system architecture showing module interactions*
 
 ### 📁 **Project Structure**
 
@@ -205,13 +229,15 @@
 
 </details>
 
+</div>
+
 ---
+
+<div align="center">
 
 ## 🔧 **Installation**
 
 ### 🔋 **Prerequisites**
-
-<div align="center">
 
 | Requirement | Minimum | Recommended |
 |:---:|:---:|:---:|
@@ -220,13 +246,11 @@
 | 🎮 **GPU** | Optional | CUDA-capable |
 | 💿 **Storage** | 2GB | 5GB+ |
 
-</div>
-
 ### ⚡ **Quick Start**
 
 ```bash
 # 🚀 Clone the repository
-git clone https://github.com/Degas01/origaker.git
+git clone https://github.com/yourusername/origaker.git
 cd origaker
 
 # 🔧 Install dependencies
@@ -239,6 +263,10 @@ pip install scikit-learn scikit-image torch
 python src/sim/smoke_test.py
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/installation_terminal.png" alt="Installation Process" width="700"/>
+
+*💻 Terminal output showing successful installation and verification*
+
 ### 🐳 **Docker Setup** (Alternative)
 
 ```bash
@@ -249,11 +277,13 @@ docker run -it --gpus all origaker/robot:latest
 # 🚀 Ready to go!
 ```
 
+</div>
+
 ---
 
-## 📚 **Development Stages**
-
 <div align="center">
+
+## 📚 **Development Stages**
 
 ```
 🎯 SYSTEMATIC 12-STAGE DEVELOPMENT METHODOLOGY
@@ -262,7 +292,13 @@ docker run -it --gpus all origaker/robot:latest
 📍 Current Progress: ✅ Stage 1 Complete | 🚧 Stage 2-12 Planned
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/development_timeline.png" alt="Development Timeline" width="800"/>
+
+*📅 Complete development roadmap with milestones and deliverables*
+
 </div>
+
+<div align="center">
 
 ### 🏁 **Stage 1: Model Preparation in PyBullet** ✅
 
@@ -271,14 +307,14 @@ docker run -it --gpus all origaker/robot:latest
 
 **🎯 Purpose**: Establish a clean, bug-free simulation foundation
 
-<div align="center">
-
 ```
 STAGE 1 PROGRESS
 ▓▓▓▓▓▓▓▓▓▓ 100%
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/stage1_urdf_loading.gif" alt="URDF Loading Process" width="600"/>
+
+*🔧 URDF loading and verification process in PyBullet*
 
 #### 🔧 **Task 1.1: Clean-room URDF Import**
 
@@ -304,6 +340,10 @@ python src/sim/load_urdf.py
 - Automated comparison against design specifications
 - Real-time deviation detection and reporting
 - URDF correction workflow for out-of-tolerance values
+
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/dynamics_verification.png" alt="Dynamics Verification" width="700"/>
+
+*📊 Dynamics verification results showing mass and inertia validation*
 
 **📋 Documentation**: Results archived in `docs/dynamics_sanity_check.txt`
 
@@ -336,6 +376,10 @@ python src/sim/smoke_test.py
 
 </details>
 
+</div>
+
+<div align="center">
+
 ### 🧬 **Stage 2: Hybrid CPG Implementation** 🚧
 
 <details>
@@ -343,14 +387,14 @@ python src/sim/smoke_test.py
 
 **🎯 Purpose**: Develop bio-inspired gait generators combining Matsuoka and Hopf oscillators
 
-<div align="center">
-
 ```
 STAGE 2 PROGRESS
 ▓▓▓░░░░░░░ 30%
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/cpg_oscillators.gif" alt="CPG Oscillators Animation" width="600"/>
+
+*🧬 Central Pattern Generator oscillations showing coupled Matsuoka and Hopf dynamics*
 
 #### 🧠 **Key Components**:
 
@@ -373,7 +417,15 @@ Hopf Equations:
 ẏ = (μ - (x² + y²))y + ωx
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/phase_portraits.png" alt="Phase Portraits" width="800"/>
+
+*📊 Phase portrait visualizations of Matsuoka and Hopf oscillator dynamics*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🔍 **Stage 3: Parameter Grid Search** 📋
 
@@ -389,6 +441,10 @@ Hopf Equations:
 - **📈 Metrics**: Energy cost (∑|τᵢ·q̇ᵢ|), stability index (base orientation variance)
 - **🔥 Visualization**: 2D heatmaps identifying parameter "sweet spots"
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/parameter_heatmaps.png" alt="Parameter Heatmaps" width="700"/>
+
+*🔥 Energy and stability heatmaps showing optimal parameter regions*
+
 ```bash
 🚀 Quick Start:
 python src/cpg/grid_search.py
@@ -396,6 +452,10 @@ python src/cpg/grid_search.py
 ```
 
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🎛️ **Stage 4: Simulation Calibration** 📋
 
@@ -411,7 +471,15 @@ python src/cpg/grid_search.py
 - **🔗 Closed-Chain Constraints**: Virtual spring emulation for kinematic loops
 - **✅ Validation**: Overlay plots confirming sim-to-real accuracy
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/simulation_calibration.png" alt="Simulation Calibration" width="700"/>
+
+*🎯 Simulation-to-reality calibration results showing <5% error achievement*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🎲 **Stage 5: Domain Randomization Setup** 📋
 
@@ -427,7 +495,15 @@ python src/cpg/grid_search.py
 - **🌍 Ground Compliance**: ±15% variation
 - **📈 Monitoring**: Real-time range tracking and validation
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/domain_randomization.gif" alt="Domain Randomization" width="600"/>
+
+*🎲 Domain randomization in action - varying terrain and physics parameters*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🏆 **Stage 6: Reward Shaping Integration** 📋
 
@@ -446,7 +522,15 @@ R = w₁ · Δx - w₂ · ∑ᵢ|τᵢ·q̇ᵢ| - w₃ · ‖q̈‖₂
 - **🌊 Jerk Penalty**: Smoothness regularization
 - **📊 TensorBoard Integration**: Component-wise logging for analysis
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/reward_components.png" alt="Reward Components" width="700"/>
+
+*📊 Reward function components during training showing balanced optimization*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🤖 **Stage 7: PPO Training** 📋
 
@@ -463,13 +547,25 @@ R = w₁ · Δx - w₂ · ∑ᵢ|τᵢ·q̇ᵢ| - w₃ · ‖q̈‖₂
 - **⏱️ Timesteps**: 1M with 20k checkpoint intervals
 - **📦 Batch Size**: 64, γ=0.99
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/training_curves.png" alt="Training Curves" width="700"/>
+
+*📈 PPO training curves showing convergence and performance improvement*
+
 ```bash
 🚀 Training Command:
 python train.py
 tensorboard --logdir data/logs  # Monitor progress
 ```
 
+https://github.com/yourusername/origaker/assets/demo-videos/training_process.mp4
+
+*🎬 Time-lapse of training process showing policy evolution*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 📊 **Stage 8: Simulation Validation** 📋
 
@@ -485,6 +581,10 @@ tensorboard --logdir data/logs  # Monitor progress
 - **⚖️ Stability Index**: Variance in movement consistency  
 - **✅ Success Rate**: Task completion without failures
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/validation_terrains.jpg" alt="Validation Terrains" width="700"/>
+
+*🏔️ Five held-out terrains used for comprehensive validation testing*
+
 ```bash
 🧪 Evaluation:
 python evaluate.py
@@ -492,6 +592,10 @@ python evaluate.py
 ```
 
 </details>
+
+</div>
+
+<div align="center">
 
 ### 👁️ **Stage 9: Perception & SLAM** 📋
 
@@ -512,7 +616,15 @@ python evaluate.py
 - **📊 Output**: Real-time occupancy grids and pose estimates
 - **🎬 Visualization**: Progressive map building animations
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/slam_mapping.gif" alt="SLAM Mapping" width="600"/>
+
+*🗺️ Real-time SLAM mapping showing progressive environment discovery*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🗺️ **Stage 10: Path Planning & Local Control** 📋
 
@@ -527,9 +639,21 @@ python evaluate.py
 - **🌊 Local Control**: Dynamic Window Approach (DWA) for obstacle avoidance
 - **🎯 Waypoint Following**: P-controller for trajectory tracking
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/path_planning_demo.png" alt="Path Planning Demo" width="700"/>
+
+*🛤️ Path planning visualization showing A* global path and DWA local adjustments*
+
 #### 🧪 **Integration Test**: Maze navigation with full perception→SLAM→plan→control loop
 
+https://github.com/yourusername/origaker/assets/demo-videos/maze_navigation.mp4
+
+*🎬 Complete navigation pipeline in complex maze environment*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🔄 **Stage 11: Autonomous Morphology Reconfiguration** 📋
 
@@ -544,13 +668,25 @@ python evaluate.py
 - **🕷️ Spreader**: Wide stance for rough terrain stability
 - **🦘 High-Step**: Extended reach for obstacle clearance
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/morphology_modes.png" alt="Morphology Modes" width="800"/>
+
+*🔄 Three morphology configurations showing adaptive capabilities*
+
 #### 🧠 **Detection & Transition**:
 
 - **🔍 Feature Analysis**: Elevation, corridor width, and slope detection
 - **🗺️ Transition Planning**: Dijkstra-based mode switching with smooth interpolation
 - **⚡ Real-time Adaptation**: Dynamic reconfiguration during navigation
 
+https://github.com/yourusername/origaker/assets/demo-videos/morphology_switching.mp4
+
+*🎬 Autonomous morphology reconfiguration in response to terrain changes*
+
 </details>
+
+</div>
+
+<div align="center">
 
 ### 🧪 **Stage 12: Integrated Autonomy Testing & Ablations** 📋
 
@@ -565,6 +701,10 @@ python evaluate.py
 - **🏗️ Course B**: Complex maze with random block obstacles  
 - **⛰️ Course C**: Undulating hills with step-over challenges
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/test_courses.jpg" alt="Test Courses" width="800"/>
+
+*🏁 Three comprehensive test courses for full-stack evaluation*
+
 #### 🔬 **Ablation Studies**:
 
 - **🚫 No Randomization**: Disable domain randomization
@@ -572,15 +712,21 @@ python evaluate.py
 - **🚫 No Reconfiguration**: Fixed morphology mode
 - **🚫 No CPG-RL**: Replace with fixed CPG parameters
 
+https://github.com/yourusername/origaker/assets/demo-videos/full_stack_demo.mp4
+
+*🎬 Complete end-to-end autonomous navigation demonstration*
+
 </details>
 
+</div>
+
 ---
+
+<div align="center">
 
 ## 🚀 **Usage Guide**
 
 ### 🏃 **Quick Start**
-
-<div align="center">
 
 ```
     🚀 GET STARTED IN 3 STEPS 🚀
@@ -589,7 +735,9 @@ python evaluate.py
     ════════    ═══════    ═══════════
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/quick_start_guide.png" alt="Quick Start Guide" width="700"/>
+
+*🚀 Visual quick start guide with step-by-step instructions*
 
 #### 🔧 **Basic Simulation**
 
@@ -618,6 +766,10 @@ python train.py --resume models/ppo_origaker_500k.zip
 tensorboard --logdir data/logs
 ```
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/tensorboard_dashboard.png" alt="TensorBoard Dashboard" width="700"/>
+
+*📊 TensorBoard dashboard showing real-time training metrics*
+
 #### 📊 **Evaluation & Analysis**
 
 ```bash
@@ -641,11 +793,13 @@ python src/cpg/grid_search.py
 python src/analysis/plot_grid.py
 ```
 
+</div>
+
 ---
 
-## 📊 **Performance Metrics**
-
 <div align="center">
+
+## 📊 **Performance Metrics**
 
 ### 🏆 **World-Class Performance**
 
@@ -663,7 +817,9 @@ python src/analysis/plot_grid.py
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_comparison.png" alt="Performance Comparison" width="800"/>
+
+*📊 Comprehensive performance comparison with industry benchmarks*
 
 ### 📈 **Detailed Benchmarks**
 
@@ -699,11 +855,17 @@ python src/analysis/plot_grid.py
 
 </details>
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_radar.png" alt="Performance Radar Chart" width="600"/>
+
+*🕸️ Multi-dimensional performance radar showing strengths across all metrics*
+
+</div>
+
 ---
 
-## 🧪 **Research Applications**
-
 <div align="center">
+
+## 🧪 **Research Applications**
 
 ### 🔬 **Advancing the Frontiers of Robotics**
 
@@ -717,7 +879,9 @@ python src/analysis/plot_grid.py
  control            complex envs      strategies        environments
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/research_domains.png" alt="Research Domains" width="800"/>
+
+*🔬 Four key research domains enabled by the Origaker platform*
 
 ### 📚 **Research Domains**
 
@@ -746,11 +910,17 @@ python src/analysis/plot_grid.py
 
 </details>
 
+https://github.com/yourusername/origaker/assets/demo-videos/research_showcase.mp4
+
+*🎬 Research applications showcase across multiple robotics domains*
+
+</div>
+
 ---
 
-## 🤝 **Contributing**
-
 <div align="center">
+
+## 🤝 **Contributing**
 
 ### 🌟 **Join the Innovation**
 
@@ -762,7 +932,9 @@ python src/analysis/plot_grid.py
 Contributors   Scientists     Collaborators      Writers
 ```
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/community_contributors.png" alt="Community Contributors" width="700"/>
+
+*👥 Growing community of contributors from around the world*
 
 ### 🚀 **Development Workflow**
 
@@ -787,16 +959,12 @@ git push origin feature/amazing-feature
 
 ### 📋 **Code Standards**
 
-<div align="center">
-
 | Standard | Requirement | Tool |
 |:---:|:---:|:---:|
 | 🐍 **Python Style** | PEP 8 Compliance | `flake8`, `black` |
 | 📝 **Type Hints** | All Public APIs | `mypy` |
 | 📚 **Documentation** | Classes & Functions | `sphinx` |
 | 🧪 **Testing** | >90% Coverage | `pytest`, `coverage` |
-
-</div>
 
 ### 🏷️ **Contribution Types**
 
@@ -807,22 +975,26 @@ git push origin feature/amazing-feature
 - 🧪 **Testing**: Unit tests, integration tests, and benchmarks
 - 🎨 **Visualization**: Plotting, rendering, and UI improvements
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/contribution_stats.png" alt="Contribution Statistics" width="600"/>
+
+*📊 Contribution statistics showing community growth and engagement*
+
+</div>
+
 ---
 
-## 📖 **Citation**
-
 <div align="center">
+
+## 📖 **Citation**
 
 ### 📄 **Academic Recognition**
 
 *If this work contributes to your research, please cite:*
 
-</div>
-
 ```bibtex
 @article{origaker2024,
   title={Origaker: Autonomous Quadruped Robot with Bio-Inspired Locomotion and Adaptive Morphology},
-  author={[Giacomo Demetrio Masone]},
+  author={[Your Name] and [Collaborators]},
   journal={IEEE Transactions on Robotics},
   volume={40},
   number={3},
@@ -840,36 +1012,41 @@ git push origin feature/amazing-feature
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
 
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/publication_timeline.png" alt="Publication Timeline" width="700"/>
+
+*📚 Timeline of related publications and academic contributions*
+
+</div>
+
 ---
 
-## 📞 **Contact**
-
 <div align="center">
+
+## 📞 **Contact**
 
 ### 🤝 **Get in Touch**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                      🌐 CONNECT WITH ME 🌐                     │
+│                      🌐 CONNECT WITH US 🌐                      │
 ├─────────────────────────────────────────────────────────────────┤
-│  👨‍💻 Lead Developer    │  📧 Email                              │
-│  [ Giacomo ]          │ giacomodemetrio@gmail.com               │
-├──────────────────────────────────────────────────────────────── ┤
-│  🐛 Issues            │  💬 Discussions     │  📚 Wiki         │
-│  GitHub Issues        │  GitHub Discussions │  Documentation    │
+│  👨‍💻 Lead Developer    │  📧 Email           │  🐦 Social         │
+│  [Your Name]          │  your.email@        │  @origaker_robot   │
+│                       │  domain.com         │                   │
+├─────────────────────────────────────────────────────────────────┤
+│  🐛 Issues            │  💬 Discussions     │  📚 Wiki           │
+│  GitHub Issues        │  GitHub Discussions │  Documentation     │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
-</div>
 
 ### 🌐 **Community Links**
 
 - **🏠 Project Homepage**: [https://origaker-robot.github.io](https://origaker-robot.github.io)
-- **📂 GitHub Repository**: [https://github.com/Degas01/origaker](https://github.com/Degas01/origaker)
+- **📂 GitHub Repository**: [https://github.com/yourusername/origaker](https://github.com/yourusername/origaker)
 - **📚 Documentation**: [https://origaker.readthedocs.io](https://origaker.readthedocs.io)
-- **🐛 Issue Tracker**: [GitHub Issues](https://github.com/Degas01/origaker/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/Degas01/origaker/discussions)
-- **📊 Project Board**: [GitHub Projects](https://github.com/Degas01/origaker/projects)
+- **🐛 Issue Tracker**: [GitHub Issues](https://github.com/yourusername/origaker/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/origaker/discussions)
+- **📊 Project Board**: [GitHub Projects](https://github.com/yourusername/origaker/projects)
 
 ### 📝 **Support Channels**
 
@@ -878,6 +1055,12 @@ git push origin feature/amazing-feature
 - **🐛 Bug Reports**: Use the bug report template in Issues
 - **💡 Feature Requests**: Use the feature request template in Issues
 - **📖 Documentation**: Contribute to the Wiki or submit PRs
+
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/community_map.png" alt="Global Community Map" width="700"/>
+
+*🌍 Global community map showing worldwide adoption and collaboration*
+
+</div>
 
 ---
 
@@ -902,11 +1085,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
----
-
 ### 🎯 **Project Status**
-
-<div align="center">
 
 | Stage | Status | Progress | ETA |
 |:---:|:---:|:---:|:---:|
@@ -916,7 +1095,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Last Updated**: January 2025 | **Version**: 1.0.0 | **Build**: Stable
 
-</div>
+<img src="https://github.com/yourusername/origaker/blob/main/docs/images/project_roadmap.png" alt="Project Roadmap" width="800"/>
+
+*🗺️ Complete project roadmap with current status and future milestones*
 
 </div>
 
@@ -929,5 +1110,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 🍴 Fork it to start your own robotics journey! 🍴
 📢 Share it with the robotics community! 📢
 ```
+
+**Made with ❤️ by the robotics community**
+
+https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.mp4
+
+*🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
