@@ -1,93 +1,332 @@
-# Python cache and compiled files
+# Origaker Autonomous Robot - .gitignore
+# =====================================
+
+# Python
+# ------
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Jupyter notebooks checkpoint
-.ipynb_checkpoints/
+# PyInstaller
+*.manifest
+*.spec
 
-# IDE and editor files
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+origaker_env/
+robot_env/
+
+# Machine Learning Models & Data
+# ------------------------------
+models/*.zip
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/checkpoints/
+models/tensorboard_logs/
+
+# Training data and logs
+data/logs/
+data/validation/
+data/analysis/
+data/checkpoints/
+data/plots/
+data/heatmaps/
+wandb/
+mlruns/
+tensorboard_logs/
+tb_logs/
+
+# Generated datasets
+data/gaits/grid_search_results.json
+data/terrains/*.npy
+data/terrains/*.json
+data/integrated/
+data/calibration/slip_test_*.csv
+data/calibration/real_slip_*.csv
+
+# Large media files
+# -----------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+
+# High-resolution images (keep smaller ones for docs)
+docs/images/*.png
+docs/images/*.jpg
+docs/images/*.jpeg
+docs/images/*.gif
+docs/videos/
+assets/videos/
+media/
+
+# Blender files
+*.blend
+*.blend1
+*.blend2
+
+# PyBullet specific
+# -----------------
+*.urdf.xacro
+bullet3/
+pybullet_data/
+urdf_cache/
+
+# Simulation outputs
+simulation_outputs/
+robot_states/
+contact_logs/
+physics_debug/
+
+# SLAM and perception data
+# ------------------------
+maps/
+occupancy_grids/
+point_clouds/
+depth_images/
+camera_calibration/
+slam_outputs/
+
+# Configuration files with secrets
+# --------------------------------
+configs/secrets.json
+configs/api_keys.json
+configs/production.json
+.env.local
+.env.production
+
+# IDE and Editor files
+# --------------------
 .vscode/
-*.code-workspace
 .idea/
 *.swp
 *.swo
-
-# OS files
+*~
 .DS_Store
 Thumbs.db
 
-# MuJoCo temporary/runtime files
-*.log
-*.tga
-*.png
-*.svg
-*.bak
-*.mjcf.cache
-*.mjb
-*.rec
-*.raw
-*.h5
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
 
-# Checkpoints, logs and tensorboard
-logs/
-checkpoints/
-*.ckpt
-*.tfevents.*
-*.pb
-*.onnx
-*.npz
-*.npy
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 
-# Results and generated outputs
-results/
-output/
-*.csv
-*.mp4
-*.gif
-*.txt
+# Vim
+*.swp
+*.swo
+*.swn
 
-# Trained models
-models/
-saved_models/
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
-# Environment and dependencies
-.env
-.venv/
-env/
-venv/
-Pipfile.lock
-poetry.lock
-*.egg-info/
-dist/
-build/
+# OS generated files
+# ------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
 
-# PlatformIO firmware 
-.pio/
-.pioenvs/
-.pio/build/
-.pio/libdeps/
-.pio/test/
-.pio/lib/
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
 
-# Arduino-generated files
-*.elf
-*.hex
-*.bin
+# Documentation build
+# -------------------
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+.mkdocs/
 
-# ROS 2 build and logs
-build/
-install/
-log/
-.colcon/
-
-# Mesh and URDF backups
-meshes/*.stl~
-*.urdf~
+# Sphinx documentation
+docs/build/
+docs/source/_build/
 
 # Temporary files
+# ---------------
 *.tmp
 *.temp
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Archive files
+# --------------
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Performance and profiling
+# --------------------------
+*.prof
+*.lprof
+*.pstats
+cProfile.out
+
+# Database files
+# --------------
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+# ------------
 *.bak
+*.backup
+*.old
+*.orig
+
+# Robot-specific outputs
+# ----------------------
+robot_logs/
+gait_analysis/
+energy_consumption/
+stability_metrics/
+trajectory_data/
+sensor_calibration/
+motor_calibration/
+
+# Research outputs
+# ----------------
+experiments/
+results/
+plots/
+figures/
+papers/drafts/
+presentations/drafts/
+
+# Third-party downloads
+# ---------------------
+external_models/
+pretrained_models/
+datasets/downloaded/
+
+# Build and compilation
+# ---------------------
+*.o
+*.a
+*.lib
+*.dll
+*.dylib
+*.so.*
+
+# ROS (if used)
+# -------------
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+
+# Keep important files
+# --------------------
+!.gitkeep
+!README.md
+!LICENSE
+!requirements.txt
+!setup.py
+!pyproject.toml
+
+# Keep small reference images
+!docs/images/small_*.png
+!docs/images/icon*.png
+!docs/images/logo*.png
+
+# Keep configuration templates
+!configs/template_*.json
+!configs/example_*.json
