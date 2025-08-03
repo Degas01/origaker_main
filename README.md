@@ -1,10 +1,3 @@
-<div align="center">
-
-```
- <img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/9fec7a06-49f4-401d-8d00-ea5d68d917d0" />
-
-```
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyBullet](https://img.shields.io/badge/Physics-PyBullet-green.svg?style=for-the-badge)](https://pybullet.org/)
@@ -1176,4 +1169,5 @@ https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.m
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
