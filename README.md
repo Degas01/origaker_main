@@ -1,18 +1,18 @@
 <div align="center">
 
 ```
-  ╔═══════════════════════════════════════════════════════════════╗
-  ║                                                               ║
-  ║    ██████╗ ██████╗ ██╗ ██████╗  █████╗ ██╗  ██╗███████╗██████╗ ║
-  ║   ██╔═══██╗██╔══██╗██║██╔════╝ ██╔══██╗██║ ██╔╝██╔════╝██╔══██╗║
-  ║   ██║   ██║██████╔╝██║██║  ███╗███████║█████╔╝ █████╗  ██████╔╝║
-  ║   ██║   ██║██╔══██╗██║██║   ██║██╔══██║██╔═██╗ ██╔══╝  ██╔══██╗║
-  ║   ╚██████╔╝██║  ██║██║╚██████╔╝██║  ██║██║  ██╗███████╗██║  ██║║
-  ║    ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝║
-  ║                                                               ║
-  ║           🤖 Autonomous Bio-Inspired Quadruped Robot 🤖        ║
-  ║                                                               ║
-  ╚═══════════════════════════════════════════════════════════════╝
+                                                                        ╔═══════════════════════════════════════════════════════════════╗
+                                                                        ║                                                               ║
+                                                                        ║    ██████╗ ██████╗ ██╗ ██████╗  █████╗ ██╗  ██╗███████╗██████╗ ║
+                                                                        ║   ██╔═══██╗██╔══██╗██║██╔════╝ ██╔══██╗██║ ██╔╝██╔════╝██╔══██╗║
+                                                                        ║   ██║   ██║██████╔╝██║██║  ███╗███████║█████╔╝ █████╗  ██████╔╝║
+                                                                        ║   ██║   ██║██╔══██╗██║██║   ██║██╔══██║██╔═██╗ ██╔══╝  ██╔══██╗║
+                                                                        ║   ╚██████╔╝██║  ██║██║╚██████╔╝██║  ██║██║  ██╗███████╗██║  ██║║
+                                                                        ║    ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝║
+                                                                        ║                                                               ║
+                                                                        ║           🤖 Autonomous Bio-Inspired Quadruped Robot 🤖        ║
+                                                                        ║                                                               ║
+                                                                        ╚═══════════════════════════════════════════════════════════════╝
 ```
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -39,7 +39,7 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 *Where Biology Meets Artificial Intelligence*
 
 ```
-    🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
+                                                          🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
 ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_hero_shot.jpg" alt="Origaker Robot in Action" width="800"/>
@@ -61,17 +61,17 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 
 <div align="center">
 
-- [🌟 Overview](#-overview)
-- [✨ Key Features](#-key-features)
-- [🏗️ System Architecture](#️-system-architecture)
-- [🔧 Installation](#-installation)
-- [📚 Development Stages](#-development-stages)
-- [🚀 Usage Guide](#-usage-guide)
-- [📊 Performance Metrics](#-performance-metrics)
-- [🧪 Research Applications](#-research-applications)
-- [🤝 Contributing](#-contributing)
-- [📖 Citation](#-citation)
-- [📞 Contact](#-contact)
+                                                                                      - [🌟 Overview](#-overview)
+                                                                                      - [✨ Key Features](#-key-features)
+                                                                                      - [🏗️ System Architecture](#️-system-architecture)
+                                                                                      - [🔧 Installation](#-installation)
+                                                                                      - [📚 Development Stages](#-development-stages)
+                                                                                      - [🚀 Usage Guide](#-usage-guide)
+                                                                                      - [📊 Performance Metrics](#-performance-metrics)
+                                                                                      - [🧪 Research Applications](#-research-applications)
+                                                                                      - [🤝 Contributing](#-contributing)
+                                                                                      - [📖 Citation](#-citation)
+                                                                                      - [📞 Contact](#-contact)
 
 </div>
 
@@ -86,11 +86,11 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 ## 🌟 **Overview**
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  Origaker represents the cutting edge of autonomous robotics, seamlessly     │
-│  integrating biological inspiration with state-of-the-art AI to create       │
-│  a quadruped robot capable of adaptive locomotion and intelligent navigation │
-└─────────────────────────────────────────────────────────────────────────────┘
+                                                                  ┌─────────────────────────────────────────────────────────────────────────────┐
+                                                                  │  Origaker represents the cutting edge of autonomous robotics, seamlessly     │
+                                                                  │  integrating biological inspiration with state-of-the-art AI to create       │
+                                                                  │  a quadruped robot capable of adaptive locomotion and intelligent navigation │
+                                                                  └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 **Origaker** is an advanced autonomous quadruped robot that pushes the boundaries of what's possible in robotics. By combining **bio-inspired locomotion** patterns, **deep reinforcement learning**, and **adaptive morphology**, Origaker can navigate complex environments with unprecedented efficiency and intelligence.
@@ -113,22 +113,22 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 
 <div align="center">
 
-## ✨ **Key Features**
-
-| 🧬 **Bio-Inspired** | 🤖 **AI-Powered** | 👁️ **Perception** | 🔄 **Adaptive** |
-|:---:|:---:|:---:|:---:|
-| Matsuoka & Hopf Oscillators | PPO Deep RL | Computer Vision SLAM | Morphology Reconfiguration |
-| Central Pattern Generators | Neural Network Control | Real-time Mapping | Dynamic Mode Switching |
-
-### 🔥 **Core Capabilities**
-
-```
-🚶‍♂️ LOCOMOTION        🧠 INTELLIGENCE       👀 PERCEPTION         🔧 ADAPTATION
-├─ Hybrid CPG-RL       ├─ PPO Policy         ├─ Depth Sensors      ├─ Crawler Mode
-├─ Energy Efficient    ├─ Real-time Learning ├─ IMU Integration    ├─ Spreader Mode  
-├─ Stable Gaits       ├─ Obstacle Avoidance ├─ SLAM Mapping      ├─ High-Step Mode
-└─ Rough Terrain      └─ Path Planning      └─ Localization      └─ Auto-switching
-```
+                                                                ## ✨ **Key Features**
+                                                                
+                                                                | 🧬 **Bio-Inspired** | 🤖 **AI-Powered** | 👁️ **Perception** | 🔄 **Adaptive** |
+                                                                |:---:|:---:|:---:|:---:|
+                                                                | Matsuoka & Hopf Oscillators | PPO Deep RL | Computer Vision SLAM | Morphology Reconfiguration |
+                                                                | Central Pattern Generators | Neural Network Control | Real-time Mapping | Dynamic Mode Switching |
+                                                                
+                                                                ### 🔥 **Core Capabilities**
+                                                                
+                                                                ```
+                                                                🚶‍♂️ LOCOMOTION        🧠 INTELLIGENCE       👀 PERCEPTION         🔧 ADAPTATION
+                                                                ├─ Hybrid CPG-RL       ├─ PPO Policy         ├─ Depth Sensors      ├─ Crawler Mode
+                                                                ├─ Energy Efficient    ├─ Real-time Learning ├─ IMU Integration    ├─ Spreader Mode  
+                                                                ├─ Stable Gaits       ├─ Obstacle Avoidance ├─ SLAM Mapping      ├─ High-Step Mode
+                                                                └─ Rough Terrain      └─ Path Planning      └─ Localization      └─ Auto-switching
+                                                                ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/feature_showcase.gif" alt="Feature Showcase" width="800"/>
 
@@ -148,32 +148,32 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 
 <div align="center">
 
-## 🏗️ **System Architecture**
-
-```
-                    ╔══════════════════════════════════════════════════════╗
-                    ║                  🎯 MISSION CONTROL                  ║
-                    ║            Global Planning & Coordination           ║
-                    ╚════════════════════╤═════════════════════════════════╝
-                                         │
-                    ┌────────────────────┼────────────────────┐
-                    │                    │                    │
-          ╔═════════▼═════════╗ ╔═══════▼════════╗ ╔════════▼═════════╗
-          ║   🧠 COGNITION    ║ ║  👁️ PERCEPTION  ║ ║   🤖 LOCOMOTION   ║
-          ║                  ║ ║                 ║ ║                  ║
-          ║ • PPO Policy     ║ ║ • Depth Camera  ║ ║ • Hybrid CPG     ║
-          ║ • Path Planning  ║ ║ • IMU Sensors   ║ ║ • RL Modulation  ║
-          ║ • Decision Logic ║ ║ • SLAM System   ║ ║ • Torque Control ║
-          ║ • A* / DWA       ║ ║ • Mapping       ║ ║ • Gait Patterns  ║
-          ╚══════════════════╝ ╚═════════════════╝ ╚══════════════════╝
-                    │                    │                    │
-          ╔═════════▼═════════════════════▼════════════════════▼═══════╗
-          ║                🔄 ADAPTIVE MORPHOLOGY                     ║
-          ║                                                           ║
-          ║  🐜 Crawler    🕷️ Spreader    🦘 High-Step               ║
-          ║  (Narrow)      (Stable)       (Obstacles)                ║
-          ╚═══════════════════════════════════════════════════════════╝
-```
+                                                                ## 🏗️ **System Architecture**
+                                                                
+                                                                ```
+                                                                                    ╔══════════════════════════════════════════════════════╗
+                                                                                    ║                  🎯 MISSION CONTROL                  ║
+                                                                                    ║            Global Planning & Coordination           ║
+                                                                                    ╚════════════════════╤═════════════════════════════════╝
+                                                                                                         │
+                                                                                    ┌────────────────────┼────────────────────┐
+                                                                                    │                    │                    │
+                                                                          ╔═════════▼═════════╗ ╔═══════▼════════╗ ╔════════▼═════════╗
+                                                                          ║   🧠 COGNITION    ║ ║  👁️ PERCEPTION  ║ ║   🤖 LOCOMOTION   ║
+                                                                          ║                  ║ ║                 ║ ║                  ║
+                                                                          ║ • PPO Policy     ║ ║ • Depth Camera  ║ ║ • Hybrid CPG     ║
+                                                                          ║ • Path Planning  ║ ║ • IMU Sensors   ║ ║ • RL Modulation  ║
+                                                                          ║ • Decision Logic ║ ║ • SLAM System   ║ ║ • Torque Control ║
+                                                                          ║ • A* / DWA       ║ ║ • Mapping       ║ ║ • Gait Patterns  ║
+                                                                          ╚══════════════════╝ ╚═════════════════╝ ╚══════════════════╝
+                                                                                    │                    │                    │
+                                                                          ╔═════════▼═════════════════════▼════════════════════▼═══════╗
+                                                                          ║                🔄 ADAPTIVE MORPHOLOGY                     ║
+                                                                          ║                                                           ║
+                                                                          ║  🐜 Crawler    🕷️ Spreader    🦘 High-Step               ║
+                                                                          ║  (Narrow)      (Stable)       (Obstacles)                ║
+                                                                          ╚═══════════════════════════════════════════════════════════╝
+                                                                ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/system_architecture_diagram.png" alt="System Architecture" width="900"/>
 
@@ -187,54 +187,54 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 <div align="center">
 
 ```
-📦 origaker/
-├── 🎮 src/
-│   ├── 🏗️ sim/                    # PyBullet simulation core
-│   │   ├── 📄 load_urdf.py       # Robot model loader
-│   │   ├── 🎛️ controller.py       # Torque control interface  
-│   │   ├── ✅ smoke_test.py      # System validation
-│   │   └── 🏔️ terrain.py         # Environment generation
-│   ├── 🧬 cpg/                   # Bio-inspired oscillators
-│   │   ├── 🌊 oscillator.py      # Matsuoka implementation
-│   │   ├── 🔄 hopf.py           # Hopf oscillator
-│   │   ├── 🤝 hybrid.py         # Coupled network
-│   │   └── 🔍 grid_search.py    # Parameter optimization
-│   ├── 🎯 env/                   # RL environment
-│   │   └── 🤖 origaker_env.py   # Main Gym interface
-│   ├── 🧠 rl/                    # Deep reinforcement learning
-│   │   └── 🏆 reward.py         # Multi-objective rewards
-│   ├── 👁️ perception/            # Sensor processing
-│   │   ├── 📷 depth_processing.py
-│   │   └── 🗺️ slam.py
-│   ├── 🗺️ planning/              # Navigation intelligence
-│   │   ├── ⭐ astar.py          # Global path planning
-│   │   ├── 🌊 dwa.py            # Local obstacle avoidance
-│   │   ├── 🎯 controller.py     # Trajectory following
-│   │   └── 🧭 planner.py        # Planning coordinator
-│   ├── 🔄 reconfig/              # Adaptive morphology
-│   │   ├── 🦎 reconfig.py       # Mode switching logic
-│   │   └── 📊 graph.py          # Configuration transitions
-│   ├── ⚙️ calibration/           # Simulation tuning
-│   │   └── 🔧 tune_contact.py   # Physics calibration
-│   └── 📊 analysis/              # Visualization suite
-│       ├── 🔥 plot_grid.py      # Parameter heatmaps
-│       ├── 📈 plot_validation.py # Performance metrics
-│       ├── 🛤️ plot_paths.py     # Navigation traces
-│       └── 🗺️ visualize_map.py  # SLAM visualization
-├── 💾 data/                      # Generated datasets
-│   ├── 🚶 gaits/                # CPG configurations  
-│   ├── 🏔️ terrains/             # Test environments
-│   ├── 🔄 modes/                # Morphology presets
-│   ├── 📋 logs/                 # Training histories
-│   └── ✅ validation/           # Test results
-├── 🏆 models/                    # Trained AI models
-├── ⚙️ configs/                   # System configurations
-├── 📚 docs/                      # Documentation
-├── 🧪 tests/                     # Unit test suite
-├── 🎓 train.py                   # RL training pipeline
-├── 📊 evaluate.py               # Performance evaluation
-└── 🚀 run_full_stack.py         # End-to-end testing
-```
+                                                                              📦 origaker/
+                                                                              ├── 🎮 src/
+                                                                              │   ├── 🏗️ sim/                    # PyBullet simulation core
+                                                                              │   │   ├── 📄 load_urdf.py       # Robot model loader
+                                                                              │   │   ├── 🎛️ controller.py       # Torque control interface  
+                                                                              │   │   ├── ✅ smoke_test.py      # System validation
+                                                                              │   │   └── 🏔️ terrain.py         # Environment generation
+                                                                              │   ├── 🧬 cpg/                   # Bio-inspired oscillators
+                                                                              │   │   ├── 🌊 oscillator.py      # Matsuoka implementation
+                                                                              │   │   ├── 🔄 hopf.py           # Hopf oscillator
+                                                                              │   │   ├── 🤝 hybrid.py         # Coupled network
+                                                                              │   │   └── 🔍 grid_search.py    # Parameter optimization
+                                                                              │   ├── 🎯 env/                   # RL environment
+                                                                              │   │   └── 🤖 origaker_env.py   # Main Gym interface
+                                                                              │   ├── 🧠 rl/                    # Deep reinforcement learning
+                                                                              │   │   └── 🏆 reward.py         # Multi-objective rewards
+                                                                              │   ├── 👁️ perception/            # Sensor processing
+                                                                              │   │   ├── 📷 depth_processing.py
+                                                                              │   │   └── 🗺️ slam.py
+                                                                              │   ├── 🗺️ planning/              # Navigation intelligence
+                                                                              │   │   ├── ⭐ astar.py          # Global path planning
+                                                                              │   │   ├── 🌊 dwa.py            # Local obstacle avoidance
+                                                                              │   │   ├── 🎯 controller.py     # Trajectory following
+                                                                              │   │   └── 🧭 planner.py        # Planning coordinator
+                                                                              │   ├── 🔄 reconfig/              # Adaptive morphology
+                                                                              │   │   ├── 🦎 reconfig.py       # Mode switching logic
+                                                                              │   │   └── 📊 graph.py          # Configuration transitions
+                                                                              │   ├── ⚙️ calibration/           # Simulation tuning
+                                                                              │   │   └── 🔧 tune_contact.py   # Physics calibration
+                                                                              │   └── 📊 analysis/              # Visualization suite
+                                                                              │       ├── 🔥 plot_grid.py      # Parameter heatmaps
+                                                                              │       ├── 📈 plot_validation.py # Performance metrics
+                                                                              │       ├── 🛤️ plot_paths.py     # Navigation traces
+                                                                              │       └── 🗺️ visualize_map.py  # SLAM visualization
+                                                                              ├── 💾 data/                      # Generated datasets
+                                                                              │   ├── 🚶 gaits/                # CPG configurations  
+                                                                              │   ├── 🏔️ terrains/             # Test environments
+                                                                              │   ├── 🔄 modes/                # Morphology presets
+                                                                              │   ├── 📋 logs/                 # Training histories
+                                                                              │   └── ✅ validation/           # Test results
+                                                                              ├── 🏆 models/                    # Trained AI models
+                                                                              ├── ⚙️ configs/                   # System configurations
+                                                                              ├── 📚 docs/                      # Documentation
+                                                                              ├── 🧪 tests/                     # Unit test suite
+                                                                              ├── 🎓 train.py                   # RL training pipeline
+                                                                              ├── 📊 evaluate.py               # Performance evaluation
+                                                                              └── 🚀 run_full_stack.py         # End-to-end testing
+                                                                              ```
 
 </div>
 
@@ -320,11 +320,6 @@ docker run -it --gpus all origaker/robot:latest
 
 **🎯 Purpose**: Establish a clean, bug-free simulation foundation
 
-```
-STAGE 1 PROGRESS
-▓▓▓▓▓▓▓▓▓▓ 100%
-```
-
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/stage1_urdf_loading.gif" alt="URDF Loading Process" width="600"/>
 
 *🔧 URDF loading and verification process in PyBullet*
@@ -403,11 +398,6 @@ python src/sim/smoke_test.py
 <div align="center">
 
 **🎯 Purpose**: Develop bio-inspired gait generators combining Matsuoka and Hopf oscillators
-
-```
-STAGE 2 PROGRESS
-▓▓▓░░░░░░░ 30%
-```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/cpg_oscillators.gif" alt="CPG Oscillators Animation" width="600"/>
 
@@ -862,19 +852,19 @@ python src/analysis/plot_grid.py
 
 ### 🏆 **World-Class Performance**
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        🥇 ACHIEVEMENTS 🥇                       │
-├─────────────────────────────────────────────────────────────────┤
-│  ⚡ Energy Efficiency    │  🎯 Navigation Accuracy               │
-│  • COT: 0.15 ± 0.03     │  • Path Deviation: <10%              │
-│  • Speed: 0.8 ± 0.1 m/s │  • Obstacle Avoidance: 98%           │
-│  • Stability: <5% var   │  • SLAM Accuracy: <2cm drift         │
-├─────────────────────────────────────────────────────────────────┤
-│  🔄 Adaptation Performance                                      │
-│  • Mode Switching: <2s  • Recognition: 95%  • Robustness: 90%  │
-└─────────────────────────────────────────────────────────────────┘
-```
+                                                                    ```
+                                                                    ┌─────────────────────────────────────────────────────────────────┐
+                                                                    │                        🥇 ACHIEVEMENTS 🥇                       │
+                                                                    ├─────────────────────────────────────────────────────────────────┤
+                                                                    │  ⚡ Energy Efficiency    │  🎯 Navigation Accuracy               │
+                                                                    │  • COT: 0.15 ± 0.03     │  • Path Deviation: <10%              │
+                                                                    │  • Speed: 0.8 ± 0.1 m/s │  • Obstacle Avoidance: 98%           │
+                                                                    │  • Stability: <5% var   │  • SLAM Accuracy: <2cm drift         │
+                                                                    ├─────────────────────────────────────────────────────────────────┤
+                                                                    │  🔄 Adaptation Performance                                      │
+                                                                    │  • Mode Switching: <2s  • Recognition: 95%  • Robustness: 90%  │
+                                                                    └─────────────────────────────────────────────────────────────────┘
+                                                                    ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_comparison.png" alt="Performance Comparison" width="800"/>
 
@@ -888,31 +878,31 @@ python src/analysis/plot_grid.py
 <div align="center">
 
 #### 🏃 **Locomotion Efficiency**
-
-| Metric | Value | Industry Best | Status |
-|:---:|:---:|:---:|:---:|
-| Cost of Transport | 0.15 ± 0.03 | 0.20 | 🥇 **25% Better** |
-| Average Speed | 0.8 ± 0.1 m/s | 0.6 m/s | 🥇 **33% Faster** |
-| Stability Index | <5% variance | 8% variance | 🥇 **37% More Stable** |
-| Energy Recovery | 85% | 70% | 🥇 **21% Higher** |
-
+                                                                              
+                                                                              | Metric | Value | Industry Best | Status |
+                                                                              |:---:|:---:|:---:|:---:|
+                                                                              | Cost of Transport | 0.15 ± 0.03 | 0.20 | 🥇 **25% Better** |
+                                                                              | Average Speed | 0.8 ± 0.1 m/s | 0.6 m/s | 🥇 **33% Faster** |
+                                                                              | Stability Index | <5% variance | 8% variance | 🥇 **37% More Stable** |
+                                                                              | Energy Recovery | 85% | 70% | 🥇 **21% Higher** |
+                                                                              
 #### 🎯 **Navigation Accuracy**
-
-| Metric | Value | Benchmark | Status |
-|:---:|:---:|:---:|:---:|
-| Path Following Error | <10% deviation | 15% | 🥇 **33% More Accurate** |
-| Obstacle Avoidance | 98% success | 92% | 🥇 **6% Better** |
-| SLAM Localization | <2cm drift/50m | 5cm | 🥇 **60% More Precise** |
-| Map Quality | 94% accuracy | 88% | 🥇 **7% Better** |
-
-#### 🔄 **Adaptation Performance**
-
-| Metric | Value | Target | Status |
-|:---:|:---:|:---:|:---:|
-| Mode Switch Time | <2 seconds | <3 seconds | ✅ **33% Faster** |
-| Terrain Recognition | 95% accuracy | 90% | ✅ **5% Better** |
-| Robustness Score | 90% success | 85% | ✅ **6% Higher** |
-| Learning Speed | 250k steps | 500k steps | ✅ **50% Faster** |
+                                                                              
+                                                                              | Metric | Value | Benchmark | Status |
+                                                                              |:---:|:---:|:---:|:---:|
+                                                                              | Path Following Error | <10% deviation | 15% | 🥇 **33% More Accurate** |
+                                                                              | Obstacle Avoidance | 98% success | 92% | 🥇 **6% Better** |
+                                                                              | SLAM Localization | <2cm drift/50m | 5cm | 🥇 **60% More Precise** |
+                                                                              | Map Quality | 94% accuracy | 88% | 🥇 **7% Better** |
+                                                                              
+                                                                              #### 🔄 **Adaptation Performance**
+                                                                              
+                                                                              | Metric | Value | Target | Status |
+                                                                              |:---:|:---:|:---:|:---:|
+                                                                              | Mode Switch Time | <2 seconds | <3 seconds | ✅ **33% Faster** |
+                                                                              | Terrain Recognition | 95% accuracy | 90% | ✅ **5% Better** |
+                                                                              | Robustness Score | 90% success | 85% | ✅ **6% Higher** |
+                                                                              | Learning Speed | 250k steps | 500k steps | ✅ **50% Faster** |
 
 </div>
 
@@ -932,15 +922,15 @@ python src/analysis/plot_grid.py
 
 ### 🔬 **Advancing the Frontiers of Robotics**
 
-```
-🧬 Bio-Inspired     🤖 Reinforcement     🔄 Adaptive        👁️ Robot
-   Robotics           Learning           Systems         Perception
-     │                    │                 │               │
-     ▼                    ▼                 ▼               ▼
- CPG-based          Continuous        Morphology        SLAM in
- locomotion         control in        reconfiguration   dynamic
- control            complex envs      strategies        environments
-```
+                                                                      ```
+                                                                      🧬 Bio-Inspired     🤖 Reinforcement     🔄 Adaptive        👁️ Robot
+                                                                         Robotics           Learning           Systems         Perception
+                                                                           │                    │                 │               │
+                                                                           ▼                    ▼                 ▼               ▼
+                                                                       CPG-based          Continuous        Morphology        SLAM in
+                                                                       locomotion         control in        reconfiguration   dynamic
+                                                                       control            complex envs      strategies        environments
+                                                                      ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/research_domains.png" alt="Research Domains" width="800"/>
 
@@ -991,13 +981,13 @@ https://github.com/yourusername/origaker/assets/demo-videos/research_showcase.mp
 
 ### 🌟 **Join the Innovation**
 
-```
-👥 COMMUNITY DRIVEN DEVELOPMENT 👥
-═══════════════════════════════════
-
-🔧 Code        📊 Data        🧪 Research        📚 Docs
-Contributors   Scientists     Collaborators      Writers
-```
+                                                                                    ```
+                                                                                    👥 COMMUNITY DRIVEN DEVELOPMENT 👥
+                                                                                    ═══════════════════════════════════
+                                                                                    
+                                                                                    🔧 Code        📊 Data        🧪 Research        📚 Docs
+                                                                                    Contributors   Scientists     Collaborators      Writers
+                                                                                    ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/community_contributors.png" alt="Community Contributors" width="700"/>
 
@@ -1085,51 +1075,6 @@ git push origin feature/amazing-feature
 
 </div>
 
----
-
-<div align="center">
-
-## 📞 **Contact**
-
-### 🤝 **Get in Touch**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      🌐 CONNECT WITH US 🌐                      │
-├─────────────────────────────────────────────────────────────────┤
-│  👨‍💻 Lead Developer    │  📧 Email           │  🐦 Social         │
-│  [Your Name]          │  your.email@        │  @origaker_robot   │
-│                       │  domain.com         │                   │
-├─────────────────────────────────────────────────────────────────┤
-│  🐛 Issues            │  💬 Discussions     │  📚 Wiki           │
-│  GitHub Issues        │  GitHub Discussions │  Documentation     │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### 🌐 **Community Links**
-
-- **🏠 Project Homepage**: [https://origaker-robot.github.io](https://origaker-robot.github.io)
-- **📂 GitHub Repository**: [https://github.com/yourusername/origaker](https://github.com/yourusername/origaker)
-- **📚 Documentation**: [https://origaker.readthedocs.io](https://origaker.readthedocs.io)
-- **🐛 Issue Tracker**: [GitHub Issues](https://github.com/yourusername/origaker/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/origaker/discussions)
-- **📊 Project Board**: [GitHub Projects](https://github.com/yourusername/origaker/projects)
-
-### 📝 **Support Channels**
-
-- **🆘 Technical Support**: Create an issue with the `help-wanted` label
-- **🧠 Research Collaboration**: Email the lead developer directly
-- **🐛 Bug Reports**: Use the bug report template in Issues
-- **💡 Feature Requests**: Use the feature request template in Issues
-- **📖 Documentation**: Contribute to the Wiki or submit PRs
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/community_map.png" alt="Global Community Map" width="700"/>
-
-*🌍 Global community map showing worldwide adoption and collaboration*
-
-</div>
-
----
 
 <div align="center">
 
@@ -1137,28 +1082,22 @@ git push origin feature/amazing-feature
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║  🙏 ACKNOWLEDGMENTS                                              ║
-║                                                                  ║
-║  • Alexander (2003) - Biological locomotion parameters          ║
-║  • Matsuoka (1985) - Oscillator network theory                  ║
-║  • Hopf bifurcation literature - Limit-cycle dynamics           ║
-║  • OpenAI - Gym and Stable-Baselines3 frameworks                ║
-║  • PyBullet team - Physics simulation capabilities              ║
-║  • Open-source robotics community - Inspiration and support     ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+                                                                    ```
+                                                                    ╔══════════════════════════════════════════════════════════════════╗
+                                                                    ║                                                                  ║
+                                                                    ║  🙏 ACKNOWLEDGMENTS                                              ║
+                                                                    ║                                                                  ║
+                                                                    ║  • Alexander (2003) - Biological locomotion parameters          ║
+                                                                    ║  • Matsuoka (1985) - Oscillator network theory                  ║
+                                                                    ║  • Hopf bifurcation literature - Limit-cycle dynamics           ║
+                                                                    ║  • OpenAI - Gym and Stable-Baselines3 frameworks                ║
+                                                                    ║  • PyBullet team - Physics simulation capabilities              ║
+                                                                    ║  • Open-source robotics community - Inspiration and support     ║
+                                                                    ║                                                                  ║
+                                                                    ╚══════════════════════════════════════════════════════════════════╝
+                                                                    ```
 
-### 🎯 **Project Status**
 
-| Stage | Status | Progress | ETA |
-|:---:|:---:|:---:|:---:|
-| **Stage 1** | ✅ Complete | ▓▓▓▓▓▓▓▓▓▓ 100% | ✅ Done |
-| **Stage 2** | 🚧 In Progress | ▓▓▓░░░░░░░ 30% | Week 3 |
-| **Stages 3-12** | 📋 Planned | ░░░░░░░░░░ 0% | Weeks 4-18 |
 
 **Last Updated**: January 2025 | **Version**: 1.0.0 | **Build**: Stable
 
@@ -1178,13 +1117,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 📢 Share it with the robotics community! 📢
 ```
 
-**Made with ❤️ by the robotics community**
-
 https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.mp4
 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
