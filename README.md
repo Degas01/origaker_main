@@ -1,3 +1,5 @@
+<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
+
 <div align="center">
 
 ```
@@ -1118,6 +1120,7 @@ https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.m
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
