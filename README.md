@@ -705,7 +705,7 @@ https://github.com/yourusername/origaker/assets/demo-videos/maze_navigation.mp4
 - **🕷️ Spreader**: Wide stance for rough terrain stability
 - **🦘 High-Step**: Extended reach for obstacle clearance
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/morphology_modes.png" alt="Morphology Modes" width="800"/>
+<img width="4144" height="2629" alt="image" src="https://github.com/user-attachments/assets/e60f90a0-62a9-4410-bd76-119f623a915e" />
 
 *🔄 Three morphology configurations showing adaptive capabilities*
 
@@ -744,7 +744,6 @@ https://github.com/yourusername/origaker/assets/demo-videos/morphology_switching
 - **🏗️ Course B**: Complex maze with random block obstacles  
 - **⛰️ Course C**: Undulating hills with step-over challenges
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/test_courses.jpg" alt="Test Courses" width="800"/>
 
 *🏁 Three comprehensive test courses for full-stack evaluation*
 
@@ -754,10 +753,6 @@ https://github.com/yourusername/origaker/assets/demo-videos/morphology_switching
 - **🚫 No SLAM**: Use ground-truth mapping
 - **🚫 No Reconfiguration**: Fixed morphology mode
 - **🚫 No CPG-RL**: Replace with fixed CPG parameters
-
-https://github.com/yourusername/origaker/assets/demo-videos/full_stack_demo.mp4
-
-*🎬 Complete end-to-end autonomous navigation demonstration*
 
 </div>
 
@@ -779,8 +774,6 @@ https://github.com/yourusername/origaker/assets/demo-videos/full_stack_demo.mp4
     1️⃣ SETUP     2️⃣ TRAIN     3️⃣ DEPLOY
     ════════    ═══════    ═══════════
 ```
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/quick_start_guide.png" alt="Quick Start Guide" width="700"/>
 
 *🚀 Visual quick start guide with step-by-step instructions*
 
@@ -810,8 +803,6 @@ python train.py --resume models/ppo_origaker_500k.zip
 # 📊 Monitor training progress
 tensorboard --logdir data/logs
 ```
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/tensorboard_dashboard.png" alt="TensorBoard Dashboard" width="700"/>
 
 *📊 TensorBoard dashboard showing real-time training metrics*
 
@@ -862,8 +853,7 @@ python src/analysis/plot_grid.py
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_comparison.png" alt="Performance Comparison" width="800"/>
- <img width="1102" height="630" alt="image" src="https://github.com/user-attachments/assets/996e1ae0-71db-4429-af71-4b281c308820" />
+<img width="1102" height="630" alt="image" src="https://github.com/user-attachments/assets/996e1ae0-71db-4429-af71-4b281c308820" />
 
 
 *📊 Comprehensive performance comparison with industry benchmarks*
@@ -906,7 +896,6 @@ python src/analysis/plot_grid.py
 
 </details>
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_radar.png" alt="Performance Radar Chart" width="600"/>
 
 *🕸️ Multi-dimensional performance radar showing strengths across all metrics*
 
@@ -929,8 +918,6 @@ Robotics           Learning           Systems         Perception
 locomotion         control in        reconfiguration   dynamic
 control            complex envs      strategies        environments
  ```
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/research_domains.png" alt="Research Domains" width="800"/>
 
 *🔬 Four key research domains enabled by the Origaker platform*
 
@@ -986,8 +973,6 @@ https://github.com/yourusername/origaker/assets/demo-videos/research_showcase.mp
   Contributors   Scientists     Collaborators      Writers
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/community_contributors.png" alt="Community Contributors" width="700"/>
-
 *👥 Growing community of contributors from around the world*
 
 ### 🚀 **Development Workflow**
@@ -1029,7 +1014,6 @@ git push origin feature/amazing-feature
 - 🧪 **Testing**: Unit tests, integration tests, and benchmarks
 - 🎨 **Visualization**: Plotting, rendering, and UI improvements
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/contribution_stats.png" alt="Contribution Statistics" width="600"/>
 
 *📊 Contribution statistics showing community growth and engagement*
 
@@ -1066,7 +1050,6 @@ git push origin feature/amazing-feature
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/publication_timeline.png" alt="Publication Timeline" width="700"/>
 
 *📚 Timeline of related publications and academic contributions*
 
@@ -1098,7 +1081,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Last Updated**: January 2025 | **Version**: 1.0.0 | **Build**: Stable
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/project_roadmap.png" alt="Project Roadmap" width="800"/>
 
 *🗺️ Complete project roadmap with current status and future milestones*
 
@@ -1114,11 +1096,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 📢 Share it with the robotics community! 📢
 ```
 
-https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.mp4
-
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
