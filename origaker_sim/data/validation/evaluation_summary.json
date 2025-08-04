@@ -1,0 +1,387 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-07-13T13:22:01.171151",
+    "model_path": "models/ppo_origaker_best.pth",
+    "n_episodes_per_terrain": 5,
+    "terrain_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mock_mode": false
+  },
+  "results": {
+    "terrain_0": {
+      "terrain_metadata": {
+        "dimensions": {
+          "width": 256,
+          "height": 256
+        },
+        "scale": 0.1,
+        "elevation": {
+          "min": -1.3522254360889945,
+          "max": 1.2838764275270818,
+          "mean": 3.147906094956923e-05,
+          "std": 0.3407582022660816,
+          "range": 2.6361018636160765
+        },
+        "slope": {
+          "max_slope_deg": 86.62348941297044,
+          "mean_slope_deg": 65.713680570731,
+          "std_slope_deg": 14.08114376200082,
+          "max_gradient": 16.949283993783986
+        },
+        "roughness": {
+          "rms_roughness": 3.3689464007601955,
+          "mean_curvature": 33.13786235771616,
+          "roughness_index": 1.2520096580812525
+        },
+        "statistics": {
+          "num_peaks": 3277,
+          "num_valleys": 3277,
+          "surface_area_ratio": 3.1734250005363114
+        }
+      },
+      "metrics": {
+        "path_deviation": {
+          "mean": 1.025292596283617,
+          "std": 0.0002503408674889051,
+          "min": 1.0249494152504512,
+          "max": 1.025557092587014,
+          "median": 1.0254600514204824
+        },
+        "cost_of_transport": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        },
+        "stability_index": {
+          "mean": 0.0119996033608013,
+          "std": 7.62726362208089e-05,
+          "min": 0.01189403916523123,
+          "max": 0.012078742636506972,
+          "median": 0.012051394432132791
+        },
+        "success": {
+          "rate": 1.0,
+          "count": 5,
+          "total": 5
+        },
+        "distance_traveled": {
+          "mean": 0.9385013791786398,
+          "std": 0.0009712766376702853,
+          "min": 0.937152374631101,
+          "max": 0.9395025077387218,
+          "median": 0.9391644630577113
+        },
+        "energy_consumed": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    },
+    "terrain_1": {
+      "terrain_metadata": {
+        "dimensions": {
+          "width": 256,
+          "height": 256
+        },
+        "scale": 0.1,
+        "elevation": {
+          "min": -0.927366705243029,
+          "max": 3.0,
+          "mean": 2.1330568138851196,
+          "std": 0.6609844047032744,
+          "range": 3.927366705243029
+        },
+        "slope": {
+          "max_slope_deg": 88.05014968720545,
+          "mean_slope_deg": 74.90664174536104,
+          "std_slope_deg": 11.94834331604109,
+          "max_gradient": 29.373362035649055
+        },
+        "roughness": {
+          "rms_roughness": 6.4938962645763905,
+          "mean_curvature": 62.69218858268806,
+          "roughness_index": 0.30971198049101817
+        },
+        "statistics": {
+          "num_peaks": 3277,
+          "num_valleys": 3277,
+          "surface_area_ratio": 5.747101214394969
+        }
+      },
+      "metrics": {
+        "path_deviation": {
+          "mean": 1.0251846005664396,
+          "std": 0.00013394892129171628,
+          "min": 1.0250133321876915,
+          "max": 1.025351963168356,
+          "median": 1.0251134921970655
+        },
+        "cost_of_transport": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        },
+        "stability_index": {
+          "mean": 0.011941274708161136,
+          "std": 2.5188653735458633e-05,
+          "min": 0.011915674676886024,
+          "max": 0.011988691852490739,
+          "median": 0.01193759828509524
+        },
+        "success": {
+          "rate": 1.0,
+          "count": 5,
+          "total": 5
+        },
+        "distance_traveled": {
+          "mean": 0.937685208237759,
+          "std": 0.0004073018389283303,
+          "min": 0.9374371768465437,
+          "max": 0.9384984728960081,
+          "median": 0.9374956182508256
+        },
+        "energy_consumed": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    },
+    "terrain_2": {
+      "terrain_metadata": {
+        "dimensions": {
+          "width": 256,
+          "height": 256
+        },
+        "scale": 0.1,
+        "elevation": {
+          "min": 0.0,
+          "max": 1.9548519026798856,
+          "mean": 0.009480156513815782,
+          "std": 0.09065563211764874,
+          "range": 1.9548519026798856
+        },
+        "slope": {
+          "max_slope_deg": 81.6769732720023,
+          "mean_slope_deg": 1.3441029395707869,
+          "std_slope_deg": 9.09546702920459,
+          "max_gradient": 6.835517969400744
+        },
+        "roughness": {
+          "rms_roughness": 0.39197213668540964,
+          "mean_curvature": 0.3469459755435999,
+          "roughness_index": 9.561663915741386
+        },
+        "statistics": {
+          "num_peaks": 1411,
+          "num_valleys": 0,
+          "surface_area_ratio": 1.034307285850499
+        }
+      },
+      "metrics": {
+        "path_deviation": {
+          "mean": 1.0251240690575112,
+          "std": 0.0001663726987998906,
+          "min": 1.0249602416933792,
+          "max": 1.0254106874741564,
+          "median": 1.0250236014120795
+        },
+        "cost_of_transport": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        },
+        "stability_index": {
+          "mean": 0.011932302729592444,
+          "std": 2.2581860508294357e-05,
+          "min": 0.011913349961736762,
+          "max": 0.011974111443818969,
+          "median": 0.0119180972454179
+        },
+        "success": {
+          "rate": 1.0,
+          "count": 5,
+          "total": 5
+        },
+        "distance_traveled": {
+          "mean": 0.9375987546993017,
+          "std": 0.00021146951331810386,
+          "min": 0.9373909399068743,
+          "max": 0.9379969790318947,
+          "median": 0.9375209181675838
+        },
+        "energy_consumed": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    },
+    "terrain_3": {
+      "terrain_metadata": {
+        "dimensions": {
+          "width": 256,
+          "height": 256
+        },
+        "scale": 0.1,
+        "elevation": {
+          "min": -0.053668127877926554,
+          "max": 2.4415469928289255,
+          "mean": 0.9835721708135525,
+          "std": 0.8163887018004126,
+          "range": 2.495215120706852
+        },
+        "slope": {
+          "max_slope_deg": 77.72312547061271,
+          "mean_slope_deg": 12.7159230718917,
+          "std_slope_deg": 13.479393861714838,
+          "max_gradient": 4.595324376333916
+        },
+        "roughness": {
+          "rms_roughness": 0.5295542084966225,
+          "mean_curvature": 3.007497860574722,
+          "roughness_index": 0.8283344220987789
+        },
+        "statistics": {
+          "num_peaks": 3277,
+          "num_valleys": 3277,
+          "surface_area_ratio": 1.0906447874497394
+        }
+      },
+      "metrics": {
+        "path_deviation": {
+          "mean": 1.025232967632776,
+          "std": 0.00010781326590483678,
+          "min": 1.0250519913965555,
+          "max": 1.0253397506158055,
+          "median": 1.0252745510571768
+        },
+        "cost_of_transport": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        },
+        "stability_index": {
+          "mean": 0.011960050470475155,
+          "std": 4.44655000894952e-05,
+          "min": 0.011917718861767946,
+          "max": 0.012016497515218447,
+          "median": 0.01193690346772372
+        },
+        "success": {
+          "rate": 1.0,
+          "count": 5,
+          "total": 5
+        },
+        "distance_traveled": {
+          "mean": 0.9379364448821731,
+          "std": 0.0007670102712836523,
+          "min": 0.9371711243251043,
+          "max": 0.9389916779390292,
+          "median": 0.9376273980890035
+        },
+        "energy_consumed": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    },
+    "terrain_4": {
+      "terrain_metadata": {
+        "dimensions": {
+          "width": 256,
+          "height": 256
+        },
+        "scale": 0.1,
+        "elevation": {
+          "min": -0.42867546282890356,
+          "max": 1.0758149823124568,
+          "mean": 0.42960531923323303,
+          "std": 0.1835561517026707,
+          "range": 1.5044904451413603
+        },
+        "slope": {
+          "max_slope_deg": 82.9463192452561,
+          "mean_slope_deg": 51.988540397354214,
+          "std_slope_deg": 16.051925615067493,
+          "max_gradient": 8.081741882669133
+        },
+        "roughness": {
+          "rms_roughness": 1.7991465804967886,
+          "mean_curvature": 17.3806133389252,
+          "roughness_index": 0.4246920591508012
+        },
+        "statistics": {
+          "num_peaks": 3277,
+          "num_valleys": 3277,
+          "surface_area_ratio": 1.9223096430068172
+        }
+      },
+      "metrics": {
+        "path_deviation": {
+          "mean": 1.0236636267473231,
+          "std": 0.0029450982778077466,
+          "min": 1.0177756939544873,
+          "max": 1.0252883050402806,
+          "median": 1.0250659827295145
+        },
+        "cost_of_transport": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        },
+        "stability_index": {
+          "mean": 0.013971324505188645,
+          "std": 0.0038693176338890855,
+          "min": 0.012016827050367341,
+          "max": 0.021709892610757134,
+          "median": 0.012044636190201276
+        },
+        "success": {
+          "rate": 1.0,
+          "count": 5,
+          "total": 5
+        },
+        "distance_traveled": {
+          "mean": 0.9692405538841399,
+          "std": 0.06001932084547004,
+          "min": 0.9387804239417954,
+          "max": 1.0892777609749236,
+          "median": 0.9394197869808883
+        },
+        "energy_consumed": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    }
+  }
+}
