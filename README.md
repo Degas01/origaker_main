@@ -713,8 +713,6 @@ python evaluate.py
 - **🗺️ Transition Planning**: Dijkstra-based mode switching with smooth interpolation
 - **⚡ Real-time Adaptation**: Dynamic reconfiguration during navigation
 
-https://github.com/yourusername/origaker/assets/demo-videos/morphology_switching.mp4
-
 *🎬 Autonomous morphology reconfiguration in response to terrain changes*
 
 </div>
@@ -950,8 +948,6 @@ control            complex envs      strategies        environments
 
 </details>
 
-https://github.com/yourusername/origaker/assets/demo-videos/research_showcase.mp4
-
 *🎬 Research applications showcase across multiple robotics domains*
 
 </div>
@@ -1097,6 +1093,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
