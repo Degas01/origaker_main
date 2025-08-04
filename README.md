@@ -44,8 +44,6 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_hero_shot.jpg" alt="Origaker Robot in Action" width="800"/>
-
 </div>
 
 ---
@@ -120,13 +118,6 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 └─ Rough Terrain      └─ Path Planning      └─ Localization      └─ Auto-switching
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/feature_showcase.gif" alt="Feature Showcase" width="800"/>
-
-*🎬 Dynamic feature demonstration - CPG locomotion, SLAM mapping, and morphology switching*
-
-<img width="405" height="309" alt="image" src="https://github.com/user-attachments/assets/b7b92a85-bedc-4933-ab86-96790f402f7c" />
-<img width="405" height="309" alt="image" src="https://github.com/user-attachments/assets/db01b50f-47a2-4705-be1b-a38133bccfce" />
-<img width="451" height="281" alt="image" src="https://github.com/user-attachments/assets/b9d4cea4-e859-490b-b8f2-35b6e8ae2d43" />
 <img width="405" height="320" alt="image" src="https://github.com/user-attachments/assets/d9451788-1190-4e72-90e3-d8a0286a984d" />
 
 ### 🏆 **What Makes Origaker Special**
@@ -168,8 +159,6 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 ║  (Narrow)      (Stable)       (Obstacles)                ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/system_architecture_diagram.png" alt="System Architecture" width="900"/>
 
 *🏗️ Detailed system architecture showing module interactions*
 
@@ -268,8 +257,6 @@ pip install scikit-learn scikit-image torch
 python src/sim/smoke_test.py
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/installation_terminal.png" alt="Installation Process" width="700"/>
-
 *💻 Terminal output showing successful installation and verification*
 
 ### 🐳 **Docker Setup** (Alternative)
@@ -297,8 +284,6 @@ docker run -it --gpus all origaker/robot:latest
 📍 Current Progress: ✅ Stage 1 Complete | 🚧 Stage 2-12 Planned
 ```
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/development_timeline.png" alt="Development Timeline" width="800"/>
-
 *📅 Complete development roadmap with milestones and deliverables*
 
 </div>
@@ -313,8 +298,6 @@ docker run -it --gpus all origaker/robot:latest
 <div align="center">
 
 **🎯 Purpose**: Establish a clean, bug-free simulation foundation
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/stage1_urdf_loading.gif" alt="URDF Loading Process" width="600"/>
 
 *🔧 URDF loading and verification process in PyBullet*
 <img width="1073" height="651" alt="image" src="https://github.com/user-attachments/assets/2d84dc1a-0ffa-41b6-963b-cdc972788156" />
@@ -1136,6 +1119,7 @@ https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.m
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
