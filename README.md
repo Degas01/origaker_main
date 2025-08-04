@@ -678,8 +678,6 @@ python evaluate.py
 
 #### 🧪 **Integration Test**: Maze navigation with full perception→SLAM→plan→control loop
 
-https://github.com/yourusername/origaker/assets/demo-videos/maze_navigation.mp4
-
 *🎬 Complete navigation pipeline in complex maze environment*
 
 </div>
@@ -1099,6 +1097,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
