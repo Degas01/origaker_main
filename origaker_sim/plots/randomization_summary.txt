@@ -1,0 +1,11 @@
+CPG-RL Domain Randomization Summary
+========================================
+
+Total Steps: 500
+Step Range: 0 - 4,990
+Alpha Range: 1.000 - 0.002
+Friction Range: 0.634 - 0.764
+Restitution Range: 0.095 - 0.105
+Compliance Range: 42926.3 - 57345.2
+Final Alpha: 0.002
+Annealing Complete: True
