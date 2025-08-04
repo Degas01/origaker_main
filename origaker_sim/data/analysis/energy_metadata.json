@@ -1,0 +1,21 @@
+{
+  "metric": "energy",
+  "frequency_range": [
+    1.0,
+    4.0
+  ],
+  "amplitude_range": [
+    0.10471975511965977,
+    1.0471975511965976
+  ],
+  "value_range": [
+    1.7669682950464365,
+    240.82019929266116
+  ],
+  "shape": [
+    10,
+    10
+  ],
+  "texture_file": "energy_texture.png",
+  "obj_file": "heatmap_plane.obj"
+}

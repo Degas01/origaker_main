@@ -1,0 +1,19 @@
+CPG Parameter Grid Search Analysis Report
+=============================================
+
+Total parameter combinations tested: 100
+Frequency range: 1.00 - 4.00 Hz
+Amplitude range: 0.10 - 1.05 rad
+
+Energy Statistics:
+  Mean: 68.8674
+  Std:  59.5282
+  Min:  1.7670
+  Max:  240.8202
+
+Stability Statistics:
+  Mean: 1.8294
+  Std:  0.4766
+  Min:  0.9259
+  Max:  2.9668
+
