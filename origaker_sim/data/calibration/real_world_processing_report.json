@@ -1,0 +1,68 @@
+{
+  "processing_summary": {
+    "num_datasets_processed": 3,
+    "test_forces": [
+      5.0,
+      10.0,
+      15.0
+    ],
+    "target_sampling_rate": 240,
+    "target_duration": 5.0
+  },
+  "data_quality": {
+    "force_5.0_N": {
+      "duration": 5.0,
+      "num_points": 1201,
+      "sampling_rate": 240.2,
+      "normal_force_mean": 159.59257636877422,
+      "normal_force_std": 2.6101006172537193,
+      "lateral_force_mean": 23.400397621631978,
+      "lateral_force_std": 7.52248273445019,
+      "missing_data_rate": 0.0,
+      "normal_force_snr_db": 28.311506043995095,
+      "lateral_force_snr_db": 44.37713564916143,
+      "friction_coefficient": 0.14662585286899651
+    },
+    "force_10.0_N": {
+      "duration": 5.0,
+      "num_points": 1201,
+      "sampling_rate": 240.2,
+      "normal_force_mean": 184.4387602930561,
+      "normal_force_std": 2.837429107494265,
+      "lateral_force_mean": 31.24197256146308,
+      "lateral_force_std": 9.915130111149098,
+      "missing_data_rate": 0.0,
+      "normal_force_snr_db": 27.194727633794255,
+      "lateral_force_snr_db": 42.52421443178064,
+      "friction_coefficient": 0.16938940877623812
+    },
+    "force_15.0_N": {
+      "duration": 5.0,
+      "num_points": 1201,
+      "sampling_rate": 240.2,
+      "normal_force_mean": 217.02754562485575,
+      "normal_force_std": 3.1189559517506464,
+      "lateral_force_mean": 35.70864484824095,
+      "lateral_force_std": 11.412029246260326,
+      "missing_data_rate": 0.0,
+      "normal_force_snr_db": 28.104691034895048,
+      "lateral_force_snr_db": 44.12791574824836,
+      "friction_coefficient": 0.16453508122865354
+    }
+  },
+  "comparison_metrics": {
+    "force_5.0_normal_error_percent": 23.61653307822229,
+    "force_5.0_lateral_error_percent": 64.59869823890322,
+    "force_10.0_normal_error_percent": 11.361305852697436,
+    "force_10.0_lateral_error_percent": 44.503089253855705,
+    "force_15.0_normal_error_percent": 11.266844160709418,
+    "force_15.0_lateral_error_percent": 26.715110200026636,
+    "overall_normal_error_percent": 15.41489436387638,
+    "overall_lateral_error_percent": 45.272299230928525,
+    "overall_error_percent": 30.34359679740245
+  },
+  "calibration_status": {
+    "target_error_percent": 5.0,
+    "achieved": false
+  }
+}

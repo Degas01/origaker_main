@@ -1,0 +1,10 @@
+{
+  "applied_force": 10.0,
+  "sampling_rate": 60.57184048545859,
+  "duration": 5.068361759185791,
+  "num_points": 307,
+  "collection_timestamp": "2025-07-09T17:15:36.980319",
+  "mean_normal_force": 8.069719000623476,
+  "mean_lateral_force": 5.786086271987493,
+  "friction_coefficient": 0.7170121130042388
+}
