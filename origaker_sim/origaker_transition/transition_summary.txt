@@ -1,0 +1,23 @@
+ORIGAKER MORPHOLOGY TRANSITION ANALYSIS REPORT
+=======================================================
+
+Generated: 2025-07-15 22:45:10
+Episode Duration: 40.00 seconds
+Total Transitions: 4
+
+PERFORMANCE SUMMARY:
+--------------------
+Transition Rate: 6.00 transitions/minute
+Success Rate: 75.0%
+Average Transition Cost: 2.75
+Most Used Mode: SPREADER
+Most Reliable Transition: None
+
+MODE USAGE:
+------------
+SPREADER: 137.5%
+CRAWLER: 25.0%
+HIGH_STEP: 25.0%
+ROLLING: 12.5%
+
+Generated Visualizations: Transition Timeline, Performance Matrix, Terrain Correlation

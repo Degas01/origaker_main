@@ -1,0 +1,16 @@
+{
+  "total_transitions": 4,
+  "episode_duration": 40.0,
+  "transition_rate": 6.0,
+  "success_rate": 75.0,
+  "avg_transition_cost": 2.75,
+  "mode_usage_percentage": {
+    "SPREADER": 137.5,
+    "CRAWLER": 25.0,
+    "HIGH_STEP": 25.0,
+    "ROLLING": 12.5
+  },
+  "most_used_mode": "SPREADER",
+  "most_reliable_transition": "None",
+  "transition_frequency_by_hour": {}
+}
