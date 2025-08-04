@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by
+Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="origaker">
+ 
+  <link
+    name="TL">
+    <inertial>
+      <origin
+        xyz="0.18972 0.22807 -0.10291"
+        rpy="0 0 0" />
+      <mass
+        value="0.0058014" />
+      <inertia
+        ixx="9.4543E-07"
+        ixy="-1.5947E-07"
+        ixz="-8.0946E-07"
+        iyy="1.7237E-06"
+        iyz="-1.5122E-07"
+        izz="1.0315E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="TLS">
+    <inertial>
+      <origin
+        xyz="0.067745564487764 1.49817103167749E-10 0.00233427325236665"
+        rpy="0 0 0" />
+      <mass
+        value="0.0166796827522758" />
+      <inertia
+        ixx="4.12115172126099E-07"
+        ixy="-4.27859119620462E-20"
+        ixz="-1.4070276045078E-18"
+        iyy="2.57285843273886E-05"
+        iyz="-8.0434761122683E-15"
+        izz="2.56032603272305E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TLS.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TLS.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JOINT_TL_TLS"
+    type="revolute">
+    <origin
+      xyz="0.170965003508001 0.120697375520416 0.226439404750094"
+      rpy="1.5707963267949 0 -2.3296364928605" />
+    <parent
+      link="TL" />
+    <child
+      link="TLS" />
+    <axis
+      xyz="0 0.999999999999998 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TL1">
+    <inertial>
+      <origin
+        xyz="0.0235433172265419 0 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00498718526001398" />
+      <inertia
+        ixx="9.40726437561715E-08"
+        ixy="-8.63576559505361E-22"
+        ixz="1.42391643894226E-21"
+        iyy="1.28188025269946E-06"
+        iyz="6.3001902878933E-24"
+        izz="1.2870565174701E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TLS_TL1"
+    type="revolute">
+    <origin
+      xyz="0.0499999999999999 0 0.0250000000000021"
+      rpy="3.14159176619258 -1.57079626357462 1.5707972133272" />
+    <parent
+      link="TLS" />
+    <child
+      link="TL1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TL2">
+    <inertial>
+      <origin
+        xyz="0.0274745365601647 -2.77555756156289E-17 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00577218526001398" />
+      <inertia
+        ixx="1.07155977089504E-07"
+        ixy="1.29040175558272E-22"
+        ixz="1.59523094682866E-21"
+        iyy="1.89986326345428E-06"
+        iyz="2.69958236077345E-23"
+        izz="1.88891037403168E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TL1_TL2"
+    type="revolute">
+    <origin
+      xyz="0.046 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="TL1" />
+    <child
+      link="TL2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TL3">
+    <inertial>
+      <origin
+        xyz="0.0510165908706006 0 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0103544030406319" />
+      <inertia
+        ixx="1.59183795846119E-07"
+        ixy="-3.32195734001296E-21"
+        ixz="1.03077352542155E-20"
+        iyy="1.03457449971474E-05"
+        iyz="-1.17650160046584E-22"
+        izz="1.03376804200508E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TL3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TL2_TL3"
+    type="revolute">
+    <origin
+      xyz="0.05385 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="TL2" />
+    <child
+      link="TL3" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BLS">
+    <inertial>
+      <origin
+        xyz="0.0732432649567947 -2.77555756156289E-17 0.00233427325236343"
+        rpy="0 0 0" />
+      <mass
+        value="0.0166796827522758" />
+      <inertia
+        ixx="4.12115172126101E-07"
+        ixy="1.03512811405899E-20"
+        ixz="-6.73655890863186E-21"
+        iyy="2.57285843273886E-05"
+        iyz="1.57091312041462E-22"
+        izz="2.56032603272305E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BLS.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BLS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TLS_BLS"
+    type="revolute">
+    <origin
+      xyz="0.14 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="TLS" />
+    <child
+      link="BLS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BL1">
+    <inertial>
+      <origin
+        xyz="0.0235433172265419 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00498718526001398" />
+      <inertia
+        ixx="9.40726437561715E-08"
+        ixy="2.31610571514848E-23"
+        ixz="1.19554295381325E-21"
+        iyy="1.28188025269946E-06"
+        iyz="4.58551244242968E-23"
+        izz="1.2870565174701E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BLS_BL1"
+    type="revolute">
+    <origin
+      xyz="0.09038 0 0.025"
+      rpy="2.4 -1.57079630572147 2.34419251046543" />
+    <parent
+      link="BLS" />
+    <child
+      link="BL1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BL2">
+    <inertial>
+      <origin
+        xyz="0.0274745365601647 1.38777878078145E-17 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00577218526001398" />
+      <inertia
+        ixx="1.07155977089505E-07"
+        ixy="4.73147310380332E-22"
+        ixz="1.7399253359742E-21"
+        iyy="1.89986326345428E-06"
+        iyz="-4.04278592151285E-23"
+        izz="1.88891037403168E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BL1_BL2"
+    type="revolute">
+    <origin
+      xyz="0.046 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BL1" />
+    <child
+      link="BL2" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BL3">
+    <inertial>
+      <origin
+        xyz="0.0510165908706006 1.38777878078145E-17 -5.55111512312578E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0103544030406319" />
+      <inertia
+        ixx="1.59183795846119E-07"
+        ixy="-8.53650392154725E-22"
+        ixz="1.02529619065853E-20"
+        iyy="1.03457449971474E-05"
+        iyz="9.92140136859135E-23"
+        izz="1.03376804200508E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BL2_BL3"
+    type="revolute">
+    <origin
+      xyz="0.05385 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BL2" />
+    <child
+      link="BL3" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BL">
+    <inertial>
+      <origin
+        xyz="0.0268603802763197 0.00183582223214612 2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00580139882238707" />
+      <inertia
+        ixx="1.85558975155226E-07"
+        ixy="-2.37409709785417E-07"
+        ixz="-2.02493813952981E-21"
+        iyy="1.71291053492831E-06"
+        iyz="-3.83811804224605E-22"
+        izz="1.78565037551717E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BLS_BL"
+    type="revolute">
+    <origin
+      xyz="0.14 0 0"
+      rpy="1.57079640031221 1.57079626015488 1.57079639685257" />
+    <parent
+      link="BLS" />
+    <child
+      link="BL" />
+    <axis
+      xyz="0 0.999999999999998 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BR">
+    <inertial>
+      <origin
+        xyz="-0.0241549760350417 -0.00836724728262286 1.38777878078145E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00580139882238707" />
+      <inertia
+        ixx="1.7786435380228E-07"
+        ixy="-2.19766792816533E-07"
+        ixz="-4.89690922631392E-22"
+        iyy="1.72367038540661E-06"
+        iyz="6.77254126527791E-23"
+        izz="1.79906813418381E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BL_BR"
+    type="revolute">
+    <origin
+      xyz="0.0500000006418139 0.00999999679092742 0"
+      rpy="3.14159265358979 0 -3.14089880060724" />
+    <parent
+      link="BL" />
+    <child
+      link="BR" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-4.3"
+      upper="4.3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BRS">
+    <inertial>
+      <origin
+        xyz="0.0677455644877638 8.32667268468867E-17 0.00233427325236343"
+        rpy="0 0 0" />
+      <mass
+        value="0.0166796827522758" />
+      <inertia
+        ixx="4.12115172126101E-07"
+        ixy="-8.5605309334025E-21"
+        ixz="-4.06311116886047E-21"
+        iyy="2.57285843273886E-05"
+        iyz="1.45583787809333E-22"
+        izz="2.56032603272305E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BRS.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BRS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BR_BRS"
+    type="revolute">
+    <origin
+      xyz="-0.0500000000000004 -0.0100000000000001 0"
+      rpy="0 -1.5707963267949 0" />
+    <parent
+      link="BR" />
+    <child
+      link="BRS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BR1">
+    <inertial>
+      <origin
+        xyz="0.0235433172265418 5.55111512312578E-17 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00498718526001397" />
+      <inertia
+        ixx="9.40726437561715E-08"
+        ixy="4.92999645081604E-22"
+        ixz="1.23526499787724E-21"
+        iyy="1.28188025269946E-06"
+        iyz="-1.43205643548243E-23"
+        izz="1.2870565174701E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BRS_BR1"
+    type="revolute">
+    <origin
+      xyz="0.0499999999999989 0 0.0249999999999999"
+      rpy="1.57079632679489 -1.5707963267949 0" />
+    <parent
+      link="BRS" />
+    <child
+      link="BR1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BR2">
+    <inertial>
+      <origin
+        xyz="0.0274745365601648 6.93889390390723E-17 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00577218526001397" />
+      <inertia
+        ixx="1.07155977089505E-07"
+        ixy="-2.27970976819614E-21"
+        ixz="2.24989249205302E-21"
+        iyy="1.89986326345428E-06"
+        iyz="-1.09084443280431E-23"
+        izz="1.88891037403167E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BR1_BR2"
+    type="revolute">
+    <origin
+      xyz="0.0460000000000001 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BR1" />
+    <child
+      link="BR2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="BR3">
+    <inertial>
+      <origin
+        xyz="0.0510165908706006 6.93889390390723E-17 -8.32667268468867E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0103544030406319" />
+      <inertia
+        ixx="1.59183795846118E-07"
+        ixy="-1.4710580013643E-20"
+        ixz="9.89425950474195E-21"
+        iyy="1.03457449971474E-05"
+        iyz="8.68539643180679E-23"
+        izz="1.03376804200508E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/BR3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BR2_BR3"
+    type="revolute">
+    <origin
+      xyz="0.0538499999999999 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BR2" />
+    <child
+      link="BR3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TRS">
+    <inertial>
+      <origin
+        xyz="0.0732432649567942 5.55111512312578E-17 0.00233427325236404"
+        rpy="0 0 0" />
+      <mass
+        value="0.0166796827522758" />
+      <inertia
+        ixx="4.12115172126101E-07"
+        ixy="-3.25354174853658E-20"
+        ixz="-1.29040175558272E-20"
+        iyy="2.57285843273886E-05"
+        iyz="-4.96308367531817E-23"
+        izz="2.56032603272305E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TRS.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TRS.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_BRS_TRS"
+    type="revolute">
+    <origin
+      xyz="0.140000000000001 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="BRS" />
+    <child
+      link="TRS" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.3"
+      upper="5.3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TR1">
+    <inertial>
+      <origin
+        xyz="0.0235433172265419 -2.77555756156289E-17 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00498718526001398" />
+      <inertia
+        ixx="9.40726437561718E-08"
+        ixy="-3.73885636873969E-22"
+        ixz="1.14081777402987E-21"
+        iyy="1.28188025269946E-06"
+        iyz="-6.69499308285107E-24"
+        izz="1.2870565174701E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TRS_TR1"
+    type="revolute">
+    <origin
+      xyz="0.089999999999997 0 0.0250000000000021"
+      rpy="1.5707963267949 -1.5707963267949 0" />
+    <parent
+      link="TRS" />
+    <child
+      link="TR1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TR2">
+    <inertial>
+      <origin
+        xyz="0.0274745365601647 0 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00577218526001399" />
+      <inertia
+        ixx="1.07155977089505E-07"
+        ixy="3.3616620094155E-21"
+        ixz="1.92341141286173E-21"
+        iyy="1.89986326345429E-06"
+        iyz="4.28582954879037E-23"
+        izz="1.88891037403168E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TR1_TR2"
+    type="revolute">
+    <origin
+      xyz="0.046 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="TR1" />
+    <child
+      link="TR2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TR3">
+    <inertial>
+      <origin
+        xyz="0.0510165908706006 -5.55111512312578E-17 -1.11022302462516E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0103544030406319" />
+      <inertia
+        ixx="1.59183795846119E-07"
+        ixy="2.152654826108E-20"
+        ixz="1.26761422217659E-20"
+        iyy="1.03457449971474E-05"
+        iyz="3.6189151799195E-23"
+        izz="1.03376804200508E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="JOINT_TR2_TR3"
+    type="revolute">
+    <origin
+      xyz="0.0538499999999999 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="TR2" />
+    <child
+      link="TR3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+  <link
+    name="TR">
+    <inertial>
+      <origin
+        xyz="0.02686 0.0018358 -2.7756E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0058014" />
+      <inertia
+        ixx="1.8556E-07"
+        ixy="-2.3741E-07"
+        ixz="5.1616E-22"
+        iyy="1.7129E-06"
+        iyz="9.8641E-23"
+        izz="1.7857E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.25098 0.25098 0.25098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="C:/Users/Giacomo/Desktop/MSc Robotics/7CCEMPRJ MSc Individual Project/origaker_main/origaker_sim/meshes/TR.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="JOINT_TR_TRS"
+    type="revolute">
+    <origin
+      xyz="0.14 0 0"
+      rpy="0 1.5708 0" />
+    <parent
+      link="TRS" />
+    <child
+      link="TR" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-3"
+      upper="3"
+      effort="30"
+      velocity="5" />
+  </joint>
+</robot>
