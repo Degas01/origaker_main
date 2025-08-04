@@ -46,10 +46,6 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_hero_shot.jpg" alt="Origaker Robot in Action" width="800"/>
 
-*🎬 Watch Origaker in action - Autonomous navigation through complex terrain*
-
-https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.mp4
-
 </div>
 
 ---
@@ -95,15 +91,9 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 
 **Origaker** is an advanced autonomous quadruped robot that pushes the boundaries of what's possible in robotics. By combining **bio-inspired locomotion** patterns, **deep reinforcement learning**, and **adaptive morphology**, Origaker can navigate complex environments with unprecedented efficiency and intelligence.
 
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/robot_cad_design.png" alt="Origaker CAD Design" width="600"/>
-
-*🔧 Detailed CAD design showing the adaptive morphology capabilities*
-
 ### 🎯 **Mission Statement**
 
 > *"To bridge the gap between biological locomotion and artificial intelligence, creating robots that move and think like living organisms while surpassing their capabilities."*
-
-<img src="https://github.com/yourusername/origaker/blob/main/docs/images/bio_inspiration.jpg" alt="Biological Inspiration" width="700"/>
 
 *🧬 Bio-inspired design principles from animal locomotion studies*
 
@@ -483,7 +473,8 @@ python src/cpg/grid_search.py
 </div>
 
 <div align="center">
-<img width="4489" height="2866" alt="image" src="https://github.com/user-attachments/assets/8e6d6ece-663c-4cf9-a753-612e6c60487a" />
+
+<img width="4412" height="3568" alt="image" src="https://github.com/user-attachments/assets/0eeae0ac-183d-43a4-8585-73a9b75d4523" />
 
 ### 🎛️ **Stage 4: Simulation Calibration** 📋
 
@@ -541,8 +532,6 @@ python src/cpg/grid_search.py
 
 <div align="center">
 <img width="3569" height="1758" alt="image" src="https://github.com/user-attachments/assets/469386de-3f84-4833-8d6d-41ad3a150b91" />
-<img width="3569" height="1758" alt="image" src="https://github.com/user-attachments/assets/3b203eb9-4145-45fc-8027-4deb2043f437" />
-<img width="3569" height="2358" alt="image" src="https://github.com/user-attachments/assets/765a2b7e-0e96-41c4-9728-0681f73c5f6f" />
 <img width="3569" height="2358" alt="image" src="https://github.com/user-attachments/assets/f7d248a6-8c54-47dc-a8ee-b1d3a3ac855f" />
 
 ### 🏆 **Stage 6: Reward Shaping Integration** 📋
@@ -605,10 +594,6 @@ R = w₁ · Δx - w₂ · ∑ᵢ|τᵢ·q̇ᵢ| - w₃ · ‖q̈‖₂
 python train.py
 tensorboard --logdir data/logs  # Monitor progress
 ```
-
-https://github.com/yourusername/origaker/assets/demo-videos/training_process.mp4
-
-*🎬 Time-lapse of training process showing policy evolution*
 
 </div>
 
@@ -721,8 +706,6 @@ https://github.com/yourusername/origaker/assets/demo-videos/maze_navigation.mp4
 </div>
 
 <div align="center">
-
-<img width="2360" height="1407" alt="image" src="https://github.com/user-attachments/assets/e91846e2-8858-4279-8ff9-447232b8cdf3" />
 
 ### 🔄 **Stage 11: Autonomous Morphology Reconfiguration** 📋
 
@@ -1153,6 +1136,7 @@ https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.m
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
