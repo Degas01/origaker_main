@@ -1,5 +1,3 @@
-<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
-
 <div align="center">
 
 ```
@@ -16,6 +14,8 @@
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
+<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyBullet](https://img.shields.io/badge/Physics-PyBullet-green.svg?style=for-the-badge)](https://pybullet.org/)
@@ -133,6 +133,11 @@ https://github.com/yourusername/origaker/assets/demo-videos/origaker_full_demo.m
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/feature_showcase.gif" alt="Feature Showcase" width="800"/>
 
 *🎬 Dynamic feature demonstration - CPG locomotion, SLAM mapping, and morphology switching*
+
+<img width="405" height="309" alt="image" src="https://github.com/user-attachments/assets/b7b92a85-bedc-4933-ab86-96790f402f7c" />
+<img width="405" height="309" alt="image" src="https://github.com/user-attachments/assets/db01b50f-47a2-4705-be1b-a38133bccfce" />
+<img width="451" height="281" alt="image" src="https://github.com/user-attachments/assets/b9d4cea4-e859-490b-b8f2-35b6e8ae2d43" />
+<img width="405" height="320" alt="image" src="https://github.com/user-attachments/assets/d9451788-1190-4e72-90e3-d8a0286a984d" />
 
 ### 🏆 **What Makes Origaker Special**
 
@@ -322,6 +327,7 @@ docker run -it --gpus all origaker/robot:latest
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/stage1_urdf_loading.gif" alt="URDF Loading Process" width="600"/>
 
 *🔧 URDF loading and verification process in PyBullet*
+<img width="1073" height="651" alt="image" src="https://github.com/user-attachments/assets/2d84dc1a-0ffa-41b6-963b-cdc972788156" />
 
 #### 🔧 **Task 1.1: Clean-room URDF Import**
 
@@ -349,6 +355,7 @@ python src/sim/load_urdf.py
 - URDF correction workflow for out-of-tolerance values
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/dynamics_verification.png" alt="Dynamics Verification" width="700"/>
+<img width="805" height="359" alt="image" src="https://github.com/user-attachments/assets/cbec2fa1-3b8c-42a5-b06b-5552580f3700" />
 
 *📊 Dynamics verification results showing mass and inertia validation*
 
@@ -435,6 +442,14 @@ Hopf Equations:
 
 <div align="center">
 
+<img width="2777" height="2970" alt="image" src="https://github.com/user-attachments/assets/9009ed2b-6d13-446d-ae8a-495135c8492e" />
+<img width="2551" height="2370" alt="image" src="https://github.com/user-attachments/assets/e0fa63ae-bb7a-49bb-9a70-a6456bdd5009" />
+<img width="2970" height="1770" alt="image" src="https://github.com/user-attachments/assets/040d49f4-4fdd-4a92-9e79-dda5add99b64" />
+<img width="3570" height="1770" alt="image" src="https://github.com/user-attachments/assets/acb5e463-d10b-48bf-9026-d1027bada59f" />
+<img width="4287" height="2157" alt="image" src="https://github.com/user-attachments/assets/e065dc7f-824a-4456-a4f2-81f1c2b5b862" />
+<img width="2398" height="2370" alt="image" src="https://github.com/user-attachments/assets/3fd822b4-f22d-478c-a3a3-7ab0c213b0c6" />
+<img width="4489" height="2866" alt="image" src="https://github.com/user-attachments/assets/36d27904-2f1b-4b09-8c2d-74a087cdfaad" />
+
 ### 🔍 **Stage 3: Parameter Grid Search** 📋
 
 <details>
@@ -468,6 +483,7 @@ python src/cpg/grid_search.py
 </div>
 
 <div align="center">
+<img width="4489" height="2866" alt="image" src="https://github.com/user-attachments/assets/8e6d6ece-663c-4cf9-a753-612e6c60487a" />
 
 ### 🎛️ **Stage 4: Simulation Calibration** 📋
 
@@ -524,6 +540,10 @@ python src/cpg/grid_search.py
 </div>
 
 <div align="center">
+<img width="3569" height="1758" alt="image" src="https://github.com/user-attachments/assets/469386de-3f84-4833-8d6d-41ad3a150b91" />
+<img width="3569" height="1758" alt="image" src="https://github.com/user-attachments/assets/3b203eb9-4145-45fc-8027-4deb2043f437" />
+<img width="3569" height="2358" alt="image" src="https://github.com/user-attachments/assets/765a2b7e-0e96-41c4-9728-0681f73c5f6f" />
+<img width="3569" height="2358" alt="image" src="https://github.com/user-attachments/assets/f7d248a6-8c54-47dc-a8ee-b1d3a3ac855f" />
 
 ### 🏆 **Stage 6: Reward Shaping Integration** 📋
 
@@ -555,6 +575,9 @@ R = w₁ · Δx - w₂ · ∑ᵢ|τᵢ·q̇ᵢ| - w₃ · ‖q̈‖₂
 </div>
 
 <div align="center">
+
+<img width="3569" height="2358" alt="image" src="https://github.com/user-attachments/assets/f6effc82-1d95-425c-afe2-b665f5eb7c57" />
+<img width="3568" height="1775" alt="image" src="https://github.com/user-attachments/assets/1ddde0f5-c1a4-4d5f-a5a7-ae83f985ffd7" />
 
 ### 🤖 **Stage 7: PPO Training** 📋
 
@@ -629,6 +652,8 @@ python evaluate.py
 
 <div align="center">
 
+
+
 ### 👁️ **Stage 9: Perception & SLAM** 📋
 
 <details>
@@ -662,6 +687,8 @@ python evaluate.py
 
 <div align="center">
 
+<img width="1788" height="1144" alt="image" src="https://github.com/user-attachments/assets/e038469d-6524-42ed-b442-2311ed84103c" />
+
 ### 🗺️ **Stage 10: Path Planning & Local Control** 📋
 
 <details>
@@ -694,6 +721,8 @@ https://github.com/yourusername/origaker/assets/demo-videos/maze_navigation.mp4
 </div>
 
 <div align="center">
+
+<img width="2360" height="1407" alt="image" src="https://github.com/user-attachments/assets/e91846e2-8858-4279-8ff9-447232b8cdf3" />
 
 ### 🔄 **Stage 11: Autonomous Morphology Reconfiguration** 📋
 
@@ -731,6 +760,8 @@ https://github.com/yourusername/origaker/assets/demo-videos/morphology_switching
 </div>
 
 <div align="center">
+
+<img width="1531" height="1108" alt="image" src="https://github.com/user-attachments/assets/93bac923-56d8-4a8e-95a2-5dac28cc34f9" />
 
 ### 🧪 **Stage 12: Integrated Autonomy Testing & Ablations** 📋
 
@@ -866,6 +897,8 @@ python src/analysis/plot_grid.py
 ```
 
 <img src="https://github.com/yourusername/origaker/blob/main/docs/images/performance_comparison.png" alt="Performance Comparison" width="800"/>
+ <img width="1102" height="630" alt="image" src="https://github.com/user-attachments/assets/996e1ae0-71db-4429-af71-4b281c308820" />
+
 
 *📊 Comprehensive performance comparison with industry benchmarks*
 
@@ -1120,6 +1153,7 @@ https://github.com/yourusername/origaker/assets/demo-videos/community_showcase.m
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
