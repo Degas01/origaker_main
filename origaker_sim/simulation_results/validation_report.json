@@ -1,0 +1,24 @@
+{
+  "simulation_duration": 2.2041666666666666,
+  "total_steps": 535,
+  "calibration_results": {
+    "total_calibrated_mass": 15.7,
+    "optimal_friction": 0.3
+  },
+  "motion_validation": {
+    "joint_0_mse": 0.2499519317769166,
+    "joint_0_correlation": -0.21560086939617001,
+    "joint_1_mse": 0.1344259033273957,
+    "joint_1_correlation": -0.11958515775502507,
+    "joint_2_mse": 0.03793913570002084,
+    "joint_2_correlation": -0.1523360395551857,
+    "base_height_mse": 0.34731754829458367,
+    "overall_fidelity": -0.1625073555687936
+  },
+  "contact_parameters": {
+    "lateral_friction": 0.800000011920929,
+    "restitution": 0.1,
+    "contact_damping": 100.0,
+    "condim": 2
+  }
+}
