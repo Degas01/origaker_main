@@ -150,7 +150,7 @@ This project presents a **unified simulation-based framework** enabling autonomo
 ## 2. System Architecture
 
 <p align="center">
-  <img width="623" height="349" alt="Integrated simulation-based framework for autonomous morphological adaptation in Origaker" src="https://github.com/user-attachments/assets/e4a63605-5cdf-479b-93b5-224f841b4529" />
+  <img width="623" height="349" alt="Integrated simulation-based framework for autonomous morphological adaptation in Origaker" src="https://github.com/user-attachments/assets/e4a63605-5cdf-479b-93b5 224f841b4529" />
   <br>
   <em>Integrated simulation-based framework for autonomous morphological adaptation</em>
 </p>
@@ -889,6 +889,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
