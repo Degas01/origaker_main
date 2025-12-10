@@ -328,6 +328,10 @@ Two-dimensional system with stable limit cycle:
 - **Storage**: JSON gait library for runtime retrieval
 
 **Optimized Parameter Ranges:**
+
+<div align="center">
+<table>
+
 | Parameter | Range | Selected |
 |-----------|-------|----------|
 | Matsuoka β | 0.5-2.5 | 1.2 |
@@ -336,6 +340,9 @@ Two-dimensional system with stable limit cycle:
 | Hopf ω | 1.0-10.0 | 4.2 |
 | Coupling α | 0.0-1.0 | 0.6 |
 
+</table>
+
+</div>
 ---
 
 ## 5. Reinforcement Learning Framework
@@ -885,6 +892,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
