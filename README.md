@@ -248,6 +248,10 @@ Where:
 - `T`: Total training steps (1M)
 
 **Randomized Parameters:**
+
+<div align="center">
+<table>
+
 | Parameter | Initial Range | Final Range |
 |-----------|---------------|-------------|
 | Friction | ±10% | ±2% |
@@ -255,6 +259,9 @@ Where:
 | Link Mass | ±8% | ±2% |
 | Terrain Slope | ±15° | ±5° |
 | Sensor Latency | 0-50ms | 0-10ms |
+
+</table>
+</div>
 
 ---
 
@@ -882,6 +889,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
