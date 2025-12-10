@@ -734,6 +734,10 @@ No Domain Randomization:                 █████████████
 
 ### Prerequisites
 
+<div align="center">
+
+<table>
+  
 | Requirement | Minimum | Recommended |
 |:---:|:---:|:---:|
 | 🐍 **Python** | 3.8+ | 3.9+ |
@@ -741,12 +745,16 @@ No Domain Randomization:                 █████████████
 | 🎮 **GPU** | Optional | CUDA-capable |
 | 💿 **Storage** | 2GB | 5GB+ |
 
+</table>
+
+</div>
+
 ```bash
 Python >= 3.8
 CUDA 11.7+ (optional, for GPU-accelerated training)
 ```
 
-# Step 1: Install dependencies
+### Step 1: Install dependencies
 pip install numpy scipy matplotlib pandas
 pip install pybullet gym stable-baselines3[extra]
 pip install tensorboard opencv-python open3d
@@ -807,63 +815,63 @@ Expected output:
 ### Short-Term Extensions
 
 #### 1. **Sim-to-Real Transfer**
-- [ ] System identification on physical Origaker platform
-- [ ] Adaptive domain randomization refinement
-- [ ] Real-time sensor noise characterization
-- [ ] Contact dynamics calibration
-- [ ] Power consumption validation
+- System identification on physical Origaker platform
+- Adaptive domain randomization refinement
+- Real-time sensor noise characterization
+- Contact dynamics calibration
+- Power consumption validation
 
 #### 2. **Vision-Based SLAM**
-- [ ] RGB-D integration (currently depth-only)
-- [ ] ORB feature tracking for loop closure
-- [ ] Semantic segmentation for terrain classification
-- [ ] Multi-modal sensor fusion (LiDAR + camera)
+- RGB-D integration (currently depth-only)
+- ORB feature tracking for loop closure
+- Semantic segmentation for terrain classification
+- Multi-modal sensor fusion (LiDAR + camera)
 
 #### 3. **Continuous Morphology Optimization**
-- [ ] Replace discrete modes with continuous joint-space optimization
-- [ ] Online trajectory optimization (e.g., iLQR, DDP)
-- [ ] Learned mode selection via RL (meta-learning)
-- [ ] Energy-optimal configuration search
+- Replace discrete modes with continuous joint-space optimization
+- Online trajectory optimization (e.g., iLQR, DDP)
+- Learned mode selection via RL (meta-learning)
+- Energy-optimal configuration search
 
 ### Mid-Term Goals
 
 #### 4. **RL-Based Morphology Switching**
-- [ ] Train hierarchical policy: meta-controller selects modes
-- [ ] Multi-task learning across terrain types
-- [ ] Transfer learning from simulation clusters
-- [ ] Curriculum learning for progressively harder terrains
+- Train hierarchical policy: meta-controller selects modes
+- Multi-task learning across terrain types
+- Transfer learning from simulation clusters
+- Curriculum learning for progressively harder terrains
 
 #### 5. **Multi-Terrain Generalization**
-- [ ] Expand test suite: sand, mud, ice, gravel, vegetation
-- [ ] Deformable terrain simulation (e.g., Taichi-MPM)
-- [ ] Dynamic obstacles and moving platforms
-- [ ] Outdoor field trials (unstructured environments)
+- Expand test suite: sand, mud, ice, gravel, vegetation
+- Deformable terrain simulation (e.g., Taichi-MPM)
+- Dynamic obstacles and moving platforms
+- Outdoor field trials (unstructured environments)
 
 #### 6. **Robustness Enhancements**
-- [ ] Failure recovery strategies (e.g., self-righting)
-- [ ] Fault-tolerant control (leg damage scenarios)
-- [ ] Battery-aware planning (energy-constrained missions)
-- [ ] Communication loss resilience
+- Failure recovery strategies (e.g., self-righting)
+- Fault-tolerant control (leg damage scenarios)
+- Battery-aware planning (energy-constrained missions)
+- Communication loss resilience
 
 ### Long-Term Vision
 
 #### 7. **Multi-Agent Collaboration**
-- [ ] Fleet coordination for search & rescue
-- [ ] Distributed SLAM and map merging
-- [ ] Task allocation and role specialization
-- [ ] Swarm behavior emergence
+- Fleet coordination for search & rescue
+- Distributed SLAM and map merging
+- Task allocation and role specialization
+- Swarm behavior emergence
 
 #### 8. **Real-World Deployment**
-- [ ] King's College campus autonomous navigation trials
-- [ ] Industrial inspection applications (nuclear, offshore)
-- [ ] Disaster response scenario testing (UK Fire Service collaboration)
-- [ ] Planetary analog missions (ESA partnership)
+- King's College campus autonomous navigation trials
+- Industrial inspection applications (nuclear, offshore)
+- Disaster response scenario testing (UK Fire Service collaboration)
+- Planetary analog missions (ESA partnership)
 
 #### 9. **Open-Source Community**
-- [ ] ROS2 integration for broader compatibility
-- [ ] Web-based simulation interface (JavaScript/WebAssembly)
-- [ ] Benchmarking suite for locomotion research
-- [ ] Educational modules for university courses
+- ROS2 integration for broader compatibility
+- Web-based simulation interface (JavaScript/WebAssembly)
+- Benchmarking suite for locomotion research
+- Educational modules for university courses
 
 ---
 
@@ -919,29 +927,3 @@ This project builds upon foundational work:
 - **Origaker Platform** – Tang et al. (2022)
 - **Stable-Baselines3** – Raffin et al.
 - **PyBullet** – Erwin Coumans & team
-
-### Personal Support
-- **My Parents** – *Driving force behind every achievement*  
-  *For their unconditional love, sacrifice, and belief in my potential*
-
-### **Related Publications**
-
-- **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
-- **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
-- **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
