@@ -492,7 +492,7 @@ Depth Camera (640×480, 30Hz)
 ### Local Trajectory Control (DWA)
 
 **Dynamic Window Approach Parameters:**
----yaml
+
 Velocity Search Space:
   - Linear: [-0.5, 1.0] m/s
   - Angular: [-π/2, π/2] rad/s
@@ -519,12 +519,20 @@ Scoring Weights:
 
 ### Mode Specifications
 
+<div align="center">
+
+<table>
+
 | Mode | Use Case | Joint Config | Energy | Stability |
 |------|----------|--------------|--------|-----------|
 | **Crawler** | Narrow spaces, low clearance | Legs tucked (30° from body) | Low | High |
 | **Walker** | Normal terrain, standard gait | Balanced stance (60° spread) | Medium | High |
 | **Spreader** | Wide obstacles, lateral stability | Wide stance (90° spread) | Medium | Very High |
-| **High-Step** | Tall obstacles, rough terrain | Extended legs (45° elevation) | High | Medium |
+| **High-Step** | Tall obstacles, rough terrain | Extended legs (45° elevation) | High | Medium 
+
+</table>
+
+</div>
 
 ### Terrain Classification Logic
 
@@ -604,6 +612,10 @@ def interpolate_morphology(current_config, target_config, duration=0.5):
 
 #### **Quantitative Improvements:**
 
+<div align="center">
+
+<table>
+
 | Metric | Scripted CPG | PPO-Only | **Hybrid PPO-CPG** | Improvement |
 |--------|--------------|----------|-------------------|-------------|
 | **Cost of Transport ↓** | 2.1 | 1.8 | **1.6** | **24% ↓** |
@@ -611,6 +623,10 @@ def interpolate_morphology(current_config, target_config, duration=0.5):
 | **Slip Ratio ↓** | 0.21 | 0.13 | **0.09** | **57% ↓** |
 | **Tracking Error ↓** | 0.12 m | 0.08 m | **0.05 m** | **58% ↓** |
 | **Recovery Time ↓** | 1.8 s | 1.2 s | **0.8 s** | **56% ↓** |
+
+</table>
+
+</div>
 
 ### Success Rate Analysis
 
@@ -898,6 +914,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
