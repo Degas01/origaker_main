@@ -1,4 +1,11 @@
-## Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design
+# Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![PyBullet](https://img.shields.io/badge/Physics-PyBullet-green)
+![Gym](https://img.shields.io/badge/Environment-OpenAI%20Gym-red)
+![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ```
 <img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
 
@@ -1079,6 +1086,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
