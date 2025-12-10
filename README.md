@@ -40,14 +40,6 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 
 ---
 
-# Revolutionary Autonomous Navigation: Where Biology Meets Artificial Intelligence
-
-```
-🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
-```
-
----
-
 # Table of Contents
 
 1. Project Motivation
@@ -203,11 +195,13 @@ This project presents a **unified simulation-based framework** enabling autonomo
 
 ### PyBullet Configuration
 
+<p align="center">
+  <img width="339" height="268" alt="Origaker URDF model in PyBullet environment" src="https://github.com/user-attachments/assets/520f5334-6bd0-4440-b8f3-8e199be80368" />
+</p> align="center"><em>Origaker URDF model in PyBullet</em></p>
+
 <table>
 <tr>
 <td width="50%">
-<img width="339" height="268" alt="Origaker URDF model in PyBullet environment" src="https://github.com/user-attachments/assets/520f5334-6bd0-4440-b8f3-8e199be80368" />
-<p align="center"><em>Origaker URDF model in PyBullet</em></p>
 </td>
 <td width="50%">
 
@@ -890,6 +884,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
