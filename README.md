@@ -710,8 +710,8 @@ pip install scikit-learn scikit-image torch
 
 ### Step 2: Clone Repository
 ```bash
-git clone https://github.com/Degas01/origaker_sources.git
-cd origaker_sources
+git clone https://github.com/Degas01/origaker_main.git
+cd origaker_main
 ```
 
 ### Step 3: Create Virtual Environment
@@ -885,3 +885,4 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
