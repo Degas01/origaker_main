@@ -1,3 +1,5 @@
+<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
+
 # Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -7,13 +9,6 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ```
-<img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![PyBullet](https://img.shields.io/badge/Physics-PyBullet-green.svg?style=for-the-badge)](https://pybullet.org/)
-[![OpenAI Gym](https://img.shields.io/badge/RL-OpenAI%20Gym-red.svg?style=for-the-badge&logo=openai&logoColor=white)](https://gym.openai.com/)
-[![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange.svg?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
 
 <img src="https://img.shields.io/github/stars/yourusername/origaker?style=social" alt="GitHub stars">
 <img src="https://img.shields.io/github/forks/yourusername/origaker?style=social" alt="GitHub forks">
@@ -1086,6 +1081,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
