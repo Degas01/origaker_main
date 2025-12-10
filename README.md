@@ -12,13 +12,13 @@
 
 ```
 
-## Project Description
+# Project Description
 
 Origaker is a cutting-edge autonomous quadruped robot that pioneering the integration of bio-inspired locomotion with artificial intelligence for robust navigation in complex environments. The system uniquely combines Central Pattern Generators (CPG) derived from neuroscience research—specifically Matsuoka and Hopf oscillators—with deep reinforcement learning (PPO) to achieve energy-efficient, adaptive gaits that respond dynamically to terrain variations. Beyond locomotion, Origaker features autonomous morphology reconfiguration capabilities, allowing real-time switching between three distinct leg configurations (Crawler, Spreader, High-Step) based on environmental analysis through integrated SLAM perception systems. The robot demonstrates exceptional performance with <5% simulation-to-reality gap, 98% navigation success rate and 15% greater energy efficiency compared to traditional quadruped controllers, making it a valuable platform for advancing research in bio-inspired robotics, adaptive systems, continuous reinforcement learning and autonomous navigation in GPS-denied environments.
 
 ---
 
-## Revolutionary Autonomous Navigation: Where Biology Meets Artificial Intelligence
+# Revolutionary Autonomous Navigation: Where Biology Meets Artificial Intelligence
 
 ```
 🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
@@ -26,9 +26,7 @@ Origaker is a cutting-edge autonomous quadruped robot that pioneering the integr
 
 ---
 
-<div align="center">
-
-## 📋 **Table of Contents**
+# Table of Contents
 
 <details>
 <summary>🎯 Click to expand navigation</summary>
@@ -1101,6 +1099,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
