@@ -85,11 +85,9 @@ Metamorphic robots promise superior adaptability through physical reconfiguratio
 <table>
 <tr>
 <td width="50%">
-<img src="assets/figures/fukushima_failure.jpg" alt="Fukushima Robot" width="100%"/>
 <p align="center"><em><b>2011 Fukushima Disaster</b></em><br>Ground robots immobilized by debris due to morphology rigidity [Murphy et al., 2016]</p>
 </td>
 <td width="50%">
-<img src="assets/figures/exomars_rover.png" alt="ExoMars Rover" width="100%"/>
 <p align="center"><em><b>ExoMars Mission</b></em><br>Multiple design revisions after prototypes became stuck in soft Martian regolith [ESA, 2025]</p>
 </td>
 </tr>
@@ -885,4 +883,5 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
