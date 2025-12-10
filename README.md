@@ -197,7 +197,9 @@ This project presents a **unified simulation-based framework** enabling autonomo
 
 <p align="center">
   <img width="339" height="268" alt="Origaker URDF model in PyBullet environment" src="https://github.com/user-attachments/assets/520f5334-6bd0-4440-b8f3-8e199be80368" />
-</p> align="center"><em>Origaker URDF model in PyBullet</em></p>
+  <br>
+  <em>Origaker URDF model in PyBullet</em>
+</p>
 
 <table>
   
@@ -880,6 +882,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
