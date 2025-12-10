@@ -1,0 +1,40 @@
+# Core
+numpy
+scipy
+matplotlib
+pyyaml
+tqdm
+
+# RL Algorithms
+torch
+stable-baselines3[extra]
+tensorboard
+
+# Simulation
+pybullet
+opencv-python
+pillow
+
+# ROS2 Integration
+rclpy
+rosbags
+transformations
+
+# Simulation Communication
+grpcio
+
+# Unity / ROS-TCP
+ros_tcp_endpoint
+
+# Optional
+pandas
+
+# Planning
+networkx
+
+# SLAM
+open3d
+scikit-image
+
+# Utils
+protobuf
