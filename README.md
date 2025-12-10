@@ -712,15 +712,21 @@ No Domain Randomization:                 █████████████
 
 ### 1. Hybrid CPG-RL Locomotion
 
-https://github.com/user-attachments/assets/fc8dd0fc-3afa-443e-b01d-a1207a11df69
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/fc8dd0fc-3afa-443e-b01d-a1207a11df69" width="700" controls muted autoplay loop></video>
+</p>
 
 ---
 
 ### 2. Autonomous Morphology Switching
 
-https://github.com/user-attachments/assets/51ee76fd-f67b-4e3d-a401-f9eaa724a803
-https://github.com/user-attachments/assets/d14cacbf-7cd5-4f89-a51e-3b20b3df6d20
-https://github.com/user-attachments/assets/4065aa90-327d-426f-86fc-d8f9fbf8596c
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/51ee76fd-f67b-4e3d-a401-f9eaa724a803" width="600" controls muted autoplay loop></video>
+  <br>
+  <video src="https://github.com/user-attachments/assets/d14cacbf-7cd5-4f89-a51e-3b20b3df6d20" width="600" controls muted autoplay loop></video>
+  <br>
+  <video src="https://github.com/user-attachments/assets/4065aa90-327d-426f-86fc-d8f9fbf8596c" width="600" controls muted autoplay loop></video>
+</p>
 
 ---
 
@@ -923,6 +929,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
