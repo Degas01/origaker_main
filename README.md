@@ -134,12 +134,19 @@ This project presents a **unified simulation-based framework** enabling autonomo
 - **22% reduction in pose variance** (stability improvement)
 
 ### **Performance Metrics**
+
+<div align="center">
+<table>
+  
 | Metric | Improvement |
 |--------|-------------|
 | **Task Success Rate** | 92% (vs 68% baseline) |
 | **Cost of Transport** | ↓ 15% |
 | **Pose Stability** | ↓ 22% variance |
 | **Path Efficiency** | ↑ 9-17% |
+
+</table>
+</div>
 
 ### **Robust Generalization**
 - Annealed domain randomization schedule
@@ -883,5 +890,6 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
