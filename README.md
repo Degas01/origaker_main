@@ -1,5 +1,4 @@
 ## Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design
-
 ```
 <img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
 
@@ -1080,6 +1079,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *🎬 Community showcase highlighting global adoption and contributions*
 
 </div>
+
 
 
 
