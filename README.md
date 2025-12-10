@@ -755,10 +755,12 @@ CUDA 11.7+ (optional, for GPU-accelerated training)
 ```
 
 ### Step 1: Install dependencies
+```bash
 pip install numpy scipy matplotlib pandas
 pip install pybullet gym stable-baselines3[extra]
 pip install tensorboard opencv-python open3d
 pip install scikit-learn scikit-image torch
+```
 
 ### Step 2: Clone Repository
 ```bash
@@ -927,3 +929,4 @@ This project builds upon foundational work:
 - **Origaker Platform** – Tang et al. (2022)
 - **Stable-Baselines3** – Raffin et al.
 - **PyBullet** – Erwin Coumans & team
+
