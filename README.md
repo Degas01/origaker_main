@@ -1,55 +1,76 @@
-# 🦎 Origaker: Adaptive Metamorphic Legged Robot Locomotion
+# Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyBullet](https://img.shields.io/badge/PyBullet-3.2.5-green.svg)](https://pybullet.org/)
+<p align="center">
+  <img width="417" height="304" alt="image" src="https://github.com/user-attachments/assets/7c9734f5-dc45-42bf-a9ae-06f05dad0975" />
+</p>
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![PyBullet](https://img.shields.io/badge/Physics-PyBullet-green)
+![Gym](https://img.shields.io/badge/Environment-OpenAI%20Gym-red)
+![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 [![Stable-Baselines3](https://img.shields.io/badge/SB3-2.0+-orange.svg)](https://stable-baselines3.readthedocs.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Paper](https://img.shields.io/badge/Paper-MSc_Thesis-red.svg)](link-to-paper)
 [![King's College London](https://img.shields.io/badge/Institution-King's_College_London-blue.svg)](https://www.kcl.ac.uk/)
+
+---
+
+## Project Overview
+
+This repository contains the full implementation of my MSc Robotics Individual Project at King’s College London:
 
 > **Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design**
 
 *MSc Robotics Individual Project | King's College London | August 2025*
 
-<p align="center">
-  <img src="assets/origaker_hero.gif" alt="Origaker in action" width="800"/>
-</p>
+This project develops a unified autonomy framework combining:
+- **Hybrid CPG (Matsuoka + Hopf) biomechanical gait generation**
+- **PPO reinforcement learning with domain randomization**
+- **SLAM-based perception**
+- **A(star) global path planning + DWA local planning**
+- **Terrain-driven morphological reconfiguration**
+
+Everything is implemented in PyBullet.
 
 ---
 
-## 📋 Table of Contents
+## Project Description
 
-- [Project Motivation](#-project-motivation)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Simulation Environment](#-simulation-environment)
-- [Hybrid CPG Architecture](#-hybrid-cpg-architecture)
-- [Reinforcement Learning Framework](#-reinforcement-learning-framework)
-- [SLAM & Planning Pipeline](#-slam--planning-pipeline)
-- [Morphology Reconfiguration](#-morphology-reconfiguration)
-- [Results](#-results)
-- [Demonstrations](#-demonstrations)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Citation](#-citation)
-- [Future Work](#-future-work)
-- [Acknowledgements](#-acknowledgements)
-- [License](#-license)
+Origaker is a cutting-edge autonomous quadruped robot that pioneering the integration of bio-inspired locomotion with artificial intelligence for robust navigation in complex environments. The system uniquely combines Central Pattern Generators (CPG) derived from neuroscience research—specifically Matsuoka and Hopf oscillators—with deep reinforcement learning (PPO) to achieve energy-efficient, adaptive gaits that respond dynamically to terrain variations. Beyond locomotion, Origaker features autonomous morphology reconfiguration capabilities, allowing real-time switching between four distinct leg configurations based on environmental analysis through integrated SLAM perception systems. The robot demonstrates exceptional performance with <5% simulation-to-reality gap, 98% navigation success rate and 15% greater energy efficiency compared to traditional quadruped controllers, making it a valuable platform for advancing research in bio-inspired robotics, adaptive systems, continuous reinforcement learning and autonomous navigation in GPS-denied environments.
 
 ---
 
-## 🎯 Project Motivation
+# Revolutionary Autonomous Navigation: Where Biology Meets Artificial Intelligence
+
+```
+🧠 Bio-Inspired CPG    +    🤖 Deep RL    +    👁️ Computer Vision    =    🚀 Autonomous Robot
+```
+
+---
+
+# Table of Contents
+
+1. Project Motivation
+2. System Architecture
+3. Simulation Environment
+4. Hybrid CPG Architecture
+5. Reinforcement Learning Framework
+6. SLAM & Planning Pipeline
+7. Morphology Reconfiguration
+8. Results
+9. Demonstrations
+10. Installation
+11. Future Work
+12. References
+13. Acknowledgements
+
+---
+
+## 1. Project Motivation
 
 ### The Problem
 
 Metamorphic robots promise superior adaptability through physical reconfiguration, yet current systems face critical limitations:
-
-<p align="center">
-  <img src="assets/figures/origaker_robot.png" alt="Origaker Robot" width="600"/>
-  <br>
-  <em>Figure 1: The Origaker metamorphic quadruped robot platform</em>
-</p>
 
 #### **Current Limitations:**
 
@@ -80,42 +101,41 @@ According to the UN Office for Disaster Risk Reduction (2020):
 - **300+ natural disasters annually** affect 200M+ people
 - **Limited robotic assistance** due to terrain-accessibility issues
 - **Critical need** for autonomous, adaptive ground robots in:
-  - 🚨 Search & rescue operations
-  - 🌍 Planetary exploration
-  - 🏭 Industrial inspection
-  - ⚠️ Hazardous environment navigation
+  - Search & rescue operations
+  - Planetary exploration
+  - Industrial inspection
+  - Hazardous environment navigation
 
-### Our Solution
+### Solution
 
 This project presents a **unified simulation-based framework** enabling autonomous navigation and real-time morphological adaptation through:
-
-✅ **Bio-inspired rhythmic control** (Hybrid CPG networks)  
-✅ **Adaptive learning** (PPO-based reinforcement learning)  
-✅ **Environmental perception** (SLAM-based mapping)  
-✅ **Intelligent planning** (A* global + DWA local)  
-✅ **Dynamic reconfiguration** (Terrain-aware morphology switching)  
-✅ **Robust generalization** (Domain randomization)
+ - **Bio-inspired rhythmic control** (Hybrid CPG networks)
+ - **Adaptive learning** (PPO-based reinforcement learning)
+ - **Environmental perception** (SLAM-based mapping)
+ - **Intelligent planning** (A* global + DWA local)
+ - **Dynamic reconfiguration** (Terrain-aware morphology switching)
+ - **Robust generalization** (Domain randomization)
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
-### 🧬 **Hybrid CPG-RL Control**
+### **Hybrid CPG-RL Control**
 - Combines Matsuoka + Hopf oscillators for biologically plausible gaits
 - PPO agent modulates CPG parameters for terrain adaptation
 - **30% faster convergence** vs. naive reward approaches
 
-### 🗺️ **Perception-Driven Navigation**
+### **Perception-Driven Navigation**
 - Real-time SLAM with depth sensor and IMU fusion
 - A* global path planning + DWA local trajectory control
 - **84.3% mapping accuracy** in complex environments
 
-### 🦎 **Autonomous Morphology Adaptation**
+### **Autonomous Morphology Adaptation**
 - 4 discrete modes: Crawler, Walker, Spreader, High-Step
 - Terrain-aware switching based on obstacle height, corridor width, roughness
 - **22% reduction in pose variance** (stability improvement)
 
-### 🎯 **Performance Metrics**
+### **Performance Metrics**
 | Metric | Improvement |
 |--------|-------------|
 | **Task Success Rate** | 92% (vs 68% baseline) |
@@ -123,103 +143,66 @@ This project presents a **unified simulation-based framework** enabling autonomo
 | **Pose Stability** | ↓ 22% variance |
 | **Path Efficiency** | ↑ 9-17% |
 
-### 🔄 **Robust Generalization**
+### **Robust Generalization**
 - Annealed domain randomization schedule
 - ±10% friction, ±5% restitution, ±15% compliance variation
 - **25% improvement** in terrain traversal under perturbations
 
 ---
 
-## 🏗️ System Architecture
+## 2. System Architecture
 
 <p align="center">
-  <img src="assets/figures/integrated_framework.png" alt="System Architecture" width="900"/>
+  <img width="623" height="349" alt="Integrated simulation-based framework for autonomous morphological adaptation in Origaker" src="https://github.com/user-attachments/assets/e4a63605-5cdf-479b-93b5-224f841b4529" />
   <br>
-  <em>Figure 4: Integrated simulation-based framework for autonomous morphological adaptation</em>
+  <em>Integrated simulation-based framework for autonomous morphological adaptation</em>
 </p>
 
 ### Module Overview
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    AUTONOMY PIPELINE                         │
-├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  ┌──────────┐    ┌──────────┐    ┌──────────────┐          │
-│  │ Sensors  │───▶│   SLAM   │───▶│   Planning   │          │
-│  │ (Depth,  │    │ (Point   │    │  • A* Global │          │
-│  │  IMU)    │    │  Cloud,  │    │  • DWA Local │          │
-│  └──────────┘    │   Grid)  │    └──────┬───────┘          │
-│                  └──────────┘           │                   │
-│                                          │                   │
-│                       ┌──────────────────▼─────────┐        │
-│                       │  Morphology Planner        │        │
-│                       │  • Terrain Classification  │        │
-│                       │  • Mode Selection Logic    │        │
-│                       └──────────┬─────────────────┘        │
-│                                  │                           │
-│  ┌───────────────────────────────▼──────────────────────┐  │
-│  │            Hybrid CPG-RL Controller                   │  │
-│  │  ┌─────────────┐          ┌──────────────┐          │  │
-│  │  │ CPG Network │◀────────▶│  PPO Agent   │          │  │
-│  │  │ (Matsuoka + │          │ (Modulation) │          │  │
-│  │  │    Hopf)    │          └──────────────┘          │  │
-│  │  └─────────────┘                                     │  │
-│  └──────────────────────────┬───────────────────────────┘  │
-│                              │                               │
-│                    ┌─────────▼──────────┐                   │
-│                    │  PyBullet Sim      │                   │
-│                    │  (Torque Control)  │                   │
-│                    └────────────────────┘                   │
-└─────────────────────────────────────────────────────────────┘
-```
+
+<p align="center">
+  <img width="555" height="336" alt="Integrated perception-action control loop for adaptive morphological reconfiguration" src="https://github.com/user-attachments/assets/3f6874e9-7062-4a02-a7b8-e5d886fb079f" />
+</p>
 
 ### Key Components
 
-#### 1️⃣ **CPG Subsystem**
+#### **CPG Subsystem**
 - **Matsuoka oscillators**: Neuron-inspired adaptation dynamics
 - **Hopf oscillators**: Stable limit-cycle generation
 - **Hybrid coupling**: Hopf modulates Matsuoka tonic input
 - **Output**: Phase-coordinated joint trajectories
 
-#### 2️⃣ **RL Subsystem**
+#### **RL Subsystem**
 - **Algorithm**: Proximal Policy Optimization (PPO)
 - **Observations**: Joint states, body pose, oscillator phases
 - **Actions**: CPG parameter modulation (scale, offset)
 - **Reward**: Multi-objective (forward progress, energy, jerk)
 
-#### 3️⃣ **SLAM Module**
+#### **SLAM Module**
 - **Inputs**: Depth camera (640×480), IMU (100Hz)
 - **Processing**: Point cloud → RANSAC ground removal → Voxel filter
 - **Output**: 2D occupancy grid (0.05m resolution)
 - **Update Rate**: 10Hz
 
-#### 4️⃣ **Planning Layer**
+#### **Planning Layer**
 - **Global**: A* with Euclidean heuristic + obstacle inflation
 - **Local**: Dynamic Window Approach (DWA) with clearance scoring
 - **Integration**: Real-time waypoint tracking
 
-#### 5️⃣ **Morphology Planner**
+#### **Morphology Planner**
 - **Inputs**: Terrain features (elevation σ, corridor width, obstacle height)
 - **Logic**: Rule-based classifier → mode selection
 - **Execution**: Joint-space interpolation (0.5s transition time)
 
-<p align="center">
-  <img src="assets/figures/autonomy_loop.png" alt="Perception-Action Loop" width="700"/>
-  <br>
-  <em>Figure 10: Integrated perception-action control loop</em>
-</p>
-
----
-
-## 🌍 Simulation Environment
+## 3. Simulation Environment
 
 ### PyBullet Configuration
 
 <table>
 <tr>
 <td width="50%">
-<img src="assets/figures/urdf_model_pybullet.png" alt="URDF in PyBullet" width="100%"/>
-<p align="center"><em><b>Figure 11:</b> Origaker URDF model in PyBullet</em></p>
+<img width="339" height="268" alt="Origaker URDF model in PyBullet environment" src="https://github.com/user-attachments/assets/520f5334-6bd0-4440-b8f3-8e199be80368" />
+<p align="center"><em>Origaker URDF model in PyBullet</em></p>
 </td>
 <td width="50%">
 
@@ -243,16 +226,16 @@ This project presents a **unified simulation-based framework** enabling autonomo
 ### Dynamics Validation
 
 <p align="center">
-  <img src="assets/figures/dynamics_sanity_check.png" alt="Dynamics Validation" width="900"/>
+  <img width="381" height="243" alt="Dynamics sanity check" src="https://github.com/user-attachments/assets/3940fa0c-f381-4d5f-b657-4c0af2b24624" />
   <br>
-  <em>Figure 12: URDF model validation - Link mass and inertia tensor comparison against CAD reference</em>
+  <em>URDF model validation - Link mass and inertia tensor comparison against CAD reference</em>
 </p>
 
 **Validation Process:**
-1. ✅ Extract mass/inertia from `getDynamicsInfo()`
-2. ✅ Compare with CAD specifications
-3. ✅ Enforce <10% deviation threshold
-4. ✅ Correct URDF `<inertial>` tags if needed
+1. Extract mass/inertia from `getDynamicsInfo()`
+2. Compare with CAD specifications
+3. Enforce <10% deviation threshold
+4. Correct URDF `<inertial>` tags if needed
 
 ### Domain Randomization Schedule
 
@@ -278,13 +261,7 @@ Where:
 
 ---
 
-## 🧬 Hybrid CPG Architecture
-
-### Mathematical Foundation
-
-<p align="center">
-  <img src="assets/figures/oscillator_equations.png" alt="CPG Equations" width="700"/>
-</p>
+## 4. Hybrid CPG Architecture
 
 #### **Matsuoka Oscillator**
 
@@ -315,12 +292,13 @@ Two-dimensional system with stable limit cycle:
 ### Phase Portrait Analysis
 
 <p align="center">
-  <img src="assets/figures/oscillator_comparison.png" alt="Oscillator Phase Portraits" width="900"/>
+  <img width="702" height="325" alt="Comparative analysis of Hopf, Matsuoka and hybrid oscillators" src="https://github.com/user-attachments/assets/0de69cf1-b40e-4812-a5db-cebb0d59cd31" />
   <br>
-  <em>Figure 6: Comparative phase portraits - Hopf (circular limit cycle), Matsuoka (convergent), and hybrid α-interpolations</em>
+  <em>Comparative phase portraits - Hopf (circular limit cycle), Matsuoka (convergent) and hybrid α-interpolations</em>
 </p>
 
 **Key Observations:**
+
 - **Hopf**: Perfect circular limit cycle → stable rhythms
 - **Matsuoka**: Fixed-point attractor → adaptive bursting
 - **Hybrid α=0.3**: Slight spiral convergence (more Hopf-like)
@@ -360,14 +338,14 @@ Two-dimensional system with stable limit cycle:
 
 ---
 
-## 🤖 Reinforcement Learning Framework
+## 5. Reinforcement Learning Framework
 
 ### PPO Architecture
 
 <p align="center">
-  <img src="assets/figures/rl_training_loop.png" alt="RL Training Loop" width="800"/>
+  <img width="598" height="332" alt="Adaptive hybrid RL-CPG control architecture for robotic locomotion" src="https://github.com/user-attachments/assets/2347fcab-f8b6-47ee-af53-6fe4934bf97f" />
   <br>
-  <em>Figure 7: Adaptive hybrid RL-CPG control architecture</em>
+  <em>Adaptive hybrid RL-CPG control architecture</em>
 </p>
 
 **Network Structure:**
@@ -394,7 +372,7 @@ Observations (36-dim)
 
 ### Reward Function Design
 
-Multi-objective reward shaping balances speed, efficiency, and smoothness:
+Multi-objective reward shaping balances speed, efficiency and smoothness:
 ```python
 R = w₁·Δx - w₂·∑(τᵢ·q̇ᵢ) - w₃·‖q̈‖₂
     ↑         ↑            ↑
@@ -403,9 +381,9 @@ R = w₁·Δx - w₂·∑(τᵢ·q̇ᵢ) - w₃·‖q̈‖₂
 ```
 
 <p align="center">
-  <img src="assets/figures/reward_decomposition.png" alt="Reward Components" width="800"/>
+  <img width="590" height="274" alt="Reward component analysis over full gait cycle demonstrating multi-objective reward shaping function" src="https://github.com/user-attachments/assets/1d0dd106-aa32-4450-860d-246ca6ae5ef7" />
   <br>
-  <em>Figure 14: Reward component analysis over full gait cycle</em>
+  <em>Reward component analysis over full gait cycle</em>
 </p>
 
 **Component Analysis:**
@@ -437,29 +415,22 @@ Max Grad Norm: 0.5
 - Training Time: ~18 hours
 - Checkpoint Interval: Every 20k steps
 
-### Learning Curves
-
-<p align="center">
-  <img src="assets/figures/training_curves.png" alt="Training Progress" width="900"/>
-</p>
-
 **Key Milestones:**
 - **100k steps**: Basic forward locomotion acquired
 - **300k steps**: Energy-efficient gait emerges
 - **500k steps**: Stable morphology transitions
 - **1M steps**: Convergence with 30% improvement vs. baseline
 
----
-
-## 🗺️ SLAM & Planning Pipeline
+## 6. SLAM & Planning Pipeline
 
 ### Perception Architecture
 
 <p align="center">
-  <img src="assets/figures/slam_pipeline.png" alt="SLAM Architecture" width="900"/>
+  <img width="372" height="130" alt="SLAM system architecture" src="https://github.com/user-attachments/assets/3c52305f-a131-4c7d-88cd-cf56acb35ad0" />
   <br>
-  <em>Figure 8: SLAM system - Front-end and back-end processing</em>
+  <em>SLAM system - Front-end and back-end processing</em>
 </p>
+Adapted from Cadena et al. (2016)
 
 #### **Data Flow:**
 ```
@@ -484,29 +455,19 @@ Depth Camera (640×480, 30Hz)
 
 ### SLAM Visualization
 
-<table>
-<tr>
-<td width="50%">
-<img src="assets/figures/slam_3d_pointcloud.png" alt="3D Point Cloud" width="100%"/>
-<p align="center"><em><b>(a)</b> 3D Point Cloud Reconstruction</em></p>
-</td>
-<td width="50%">
-<img src="assets/figures/slam_2d_occupancy.png" alt="2D Occupancy Grid" width="100%"/>
-<p align="center"><em><b>(b)</b> 2D Occupancy Grid Map</em></p>
-</td>
-</tr>
-</table>
-
 <p align="center">
-  <em>Figure 15: Simulated SLAM system with multi-modal camera input</em>
+  <img width="647" height="270" alt="Simulated SLAM system with multi-modal camera input and 3D environment mapping" src="https://github.com/user-attachments/assets/4440731a-e7a5-4437-8db3-2596d58db1f7" />
+</p>
+<p align="center">
+  <em>Simulated SLAM system with multi-modal camera input</em>
 </p>
 
 ### Global Path Planning (A*)
 
 <p align="center">
-  <img src="assets/figures/astar_planning.png" alt="A* Planning" width="900"/>
+  <img width="591" height="271" alt="Global path planning in simple and corridor maze environments" src="https://github.com/user-attachments/assets/9e4b5cc1-067e-47c6-93ba-e521195d553a" />
   <br>
-  <em>Figure 16: A* global path planning in (a) simple maze and (b) corridor maze environments</em>
+  <em>A* global path planning in (a) simple maze and (b) corridor maze environments</em>
 </p>
 
 **Algorithm Configuration:**
@@ -532,24 +493,15 @@ Scoring Weights:
   - heading: 0.4
   - clearance: 0.3
   - velocity: 0.3
-```
 
-<p align="center">
-  <img src="assets/figures/dwa_trajectories.png" alt="DWA Candidates" width="700"/>
-  <br>
-  <em>Sampled DWA trajectories with clearance-based scoring</em>
-</p>
-
----
-
-## 🦎 Morphology Reconfiguration
+## 7. Morphology Reconfiguration
 
 ### Discrete Locomotion Modes
 
 <p align="center">
-  <img src="assets/figures/morphology_modes.png" alt="4 Morphology Modes" width="900"/>
+  <img width="816" height="127" alt="Discrete morphological modes for adaptive legged locomotion" src="https://github.com/user-attachments/assets/4cf7bd90-6750-4e6d-866c-03e4e6f82a6b" />
   <br>
-  <em>Figure 17: Discrete morphological modes - (a) Crawler, (b) Walker, (c) Spreader, (d) High-Step</em>
+  <em>Discrete morphological modes - (a) Crawler, (b) Walker, (c) Spreader, (d) High-Step</em>
 </p>
 
 ### Mode Specifications
@@ -589,9 +541,9 @@ forward_obstacle = max_height_in_path(occupancy_grid, lookahead=1.0m)
 ### Mode Switching Timeline
 
 <p align="center">
-  <img src="assets/figures/morphology_timeline.png" alt="Mode Timeline" width="900"/>
+  <img width="722" height="436" alt="Origaker morphology mode timeline with transition analysis" src="https://github.com/user-attachments/assets/e0cb556f-ef14-4816-9af4-2bfee9ce2bda" />
   <br>
-  <em>Figure 18: Origaker morphology timeline over 40s navigation sequence</em>
+  <em>Origaker morphology timeline over 40s navigation sequence</em>
 </p>
 
 **Transition Statistics:**
@@ -627,16 +579,14 @@ def interpolate_morphology(current_config, target_config, duration=0.5):
 - **Max Angular Velocity**: 2.0 rad/s
 - **Kinematic Limits**: Joint angles within [−π, π]
 
----
-
-## 📊 Results
+## 8. Results
 
 ### Performance Metrics Summary
 
 <p align="center">
-  <img src="assets/figures/kpi_comparison_table.png" alt="KPI Table" width="700"/>
+  <img width="706" height="140" alt="Controller performance comparison across KPIs" src="https://github.com/user-attachments/assets/85e87ac3-b0ff-47be-89d8-8a5decfd6c37" />
   <br>
-  <em>Table 4: Controller performance comparison across key metrics</em>
+  <em>Controller performance comparison across key metrics</em>
 </p>
 
 #### **Quantitative Improvements:**
@@ -651,9 +601,6 @@ def interpolate_morphology(current_config, target_config, duration=0.5):
 
 ### Success Rate Analysis
 
-<p align="center">
-  <img src="assets/figures/success_rate_chart.png" alt="Success Rates" width="600"/>
-</p>
 ```
 Full System (Hybrid + SLAM + Morphing):  ████████████████████ 92%
 Fixed-Mode CPG Baseline:                 ████████████▌        68%
@@ -664,10 +611,6 @@ No Domain Randomization:                 █████████████
 **Key Finding**: Integrated system achieves **36% relative improvement** over baseline.
 
 ### Energy Efficiency (COT)
-
-<p align="center">
-  <img src="assets/figures/cot_bar_chart.png" alt="Cost of Transport" width="700"/>
-</p>
 
 **Per-Mode Energy Profile:**
 | Mode | Avg. Power (W) | Duration (s) | COT |
@@ -681,22 +624,10 @@ No Domain Randomization:                 █████████████
 
 ### Stability Analysis
 
-<p align="center">
-  <img src="assets/figures/stability_plot.png" alt="Pose Stability" width="900"/>
-</p>
-
 **Pose Variance (Roll/Pitch):**
 - **Full System**: σ = 0.08 rad
 - **Fixed-Mode**: σ = 0.14 rad
 - **Improvement**: **43% reduction** in pose instability
-
-### Ablation Study Heatmap
-
-<p align="center">
-  <img src="assets/figures/ablation_heatmap.png" alt="Ablation Study" width="800"/>
-  <br>
-  <em>Component contribution analysis across 5 terrain types</em>
-</p>
 
 **Key Contributions:**
 | Component Removed | Success Rate ↓ | COT ↑ | Explanation |
@@ -708,10 +639,6 @@ No Domain Randomization:                 █████████████
 
 ### Trajectory Following Performance
 
-<p align="center">
-  <img src="assets/figures/trajectory_following.png" alt="Path Tracking" width="900"/>
-</p>
-
 **Metrics:**
 - **Path Deviation**: Mean = 0.05m, Max = 0.12m
 - **Goal Reach Accuracy**: 0.03m (within tolerance)
@@ -720,9 +647,9 @@ No Domain Randomization:                 █████████████
 ### Integrated Dashboard
 
 <p align="center">
-  <img src="assets/figures/autonomous_dashboard.png" alt="System Dashboard" width="1000"/>
+  <img width="806" height="461" alt="Integrated autonomous navigation system dashboard" src="https://github.com/user-attachments/assets/9d53639f-a901-451d-b2dc-d2d73ecc44b7" />
   <br>
-  <em>Figure 19: Real-time autonomous navigation system visualization</em>
+  <em>Real-time autonomous navigation system visualization</em>
 </p>
 
 **Dashboard Components:**
@@ -735,83 +662,59 @@ No Domain Randomization:                 █████████████
 
 ---
 
-## 🎬 Demonstrations
+## 9. Demonstrations
 
 ### 1. Hybrid CPG-RL Locomotion
 
 <p align="center">
-  <img src="demos/gait_locomotion.gif" alt="Gait Demo" width="600"/>
+  <https://github.com/user-attachments/assets/fc8dd0fc-3afa-443e-b01d-a1207a11df69>
   <br>
   <em><b>Smooth, energy-efficient trot gait</b> generated by hybrid CPG-RL controller</em>
 </p>
-
-[📹 **Full Video (MP4)**](demos/gait_locomotion.mp4) | Duration: 0:30
 
 ---
 
 ### 2. Autonomous Morphology Switching
 
 <p align="center">
-  <img src="demos/morphology_switching.gif" alt="Morphology Demo" width="600"/>
+  <https://github.com/user-attachments/assets/51ee76fd-f67b-4e3d-a401-f9eaa724a803>
+  <https://github.com/user-attachments/assets/d14cacbf-7cd5-4f89-a51e-3b20b3df6d20>
+  <https://github.com/user-attachments/assets/4065aa90-327d-426f-86fc-d8f9fbf8596c>
   <br>
   <em><b>Real-time adaptation:</b> Walker → High-Step (obstacle) → Crawler (narrow passage)</em>
 </p>
 
-[📹 **Full Video (MP4)**](demos/morphology_switching.mp4) | Duration: 0:45
-
 ---
 
-### 3. SLAM Reconstruction
-
-<p align="center">
-  <img src="demos/slam_reconstruction.gif" alt="SLAM Demo" width="600"/>
-  <br>
-  <em><b>Live mapping:</b> Depth sensor → Point cloud → Occupancy grid</em>
-</p>
-
-[📹 **Full Video (MP4)**](demos/slam_reconstruction.mp4) | Duration: 0:40
-
----
-
-### 4. Maze Navigation (Full Pipeline)
-
-<p align="center">
-  <img src="demos/maze_navigation.gif" alt="Maze Demo" width="600"/>
-  <br>
-  <em><b>Complete autonomy:</b> SLAM → A* planning → DWA control → Goal reach</em>
-</p>
-
-[📹 **Full Video (MP4)**](demos/maze_navigation.mp4) | Duration: 1:20
-
----
-
-### 5. Domain Randomization Robustness
-
-<p align="center">
-  <img src="demos/domain_randomization.gif" alt="Robustness Demo" width="600"/>
-  <br>
-  <em><b>Generalization test:</b> Varying friction, slopes, masses - zero retraining</em>
-</p>
-
-[📹 **Full Video (MP4)**](demos/domain_randomization.mp4) | Duration: 1:00
-
----
-
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
+
+| Requirement | Minimum | Recommended |
+|:---:|:---:|:---:|
+| 🐍 **Python** | 3.8+ | 3.9+ |
+| 💾 **RAM** | 8GB | 16GB+ |
+| 🎮 **GPU** | Optional | CUDA-capable |
+| 💿 **Storage** | 2GB | 5GB+ |
+
 ```bash
 Python >= 3.8
 CUDA 11.7+ (optional, for GPU-accelerated training)
 ```
 
-### Step 1: Clone Repository
+# Step 1: Install dependencies
+pip install numpy scipy matplotlib pandas
+pip install pybullet gym stable-baselines3[extra]
+pip install tensorboard opencv-python open3d
+pip install scikit-learn scikit-image torch
+
+### Step 2: Clone Repository
 ```bash
 git clone https://github.com/Degas01/origaker_sources.git
 cd origaker_sources
 ```
 
-### Step 2: Create Virtual Environment
+### Step 3: Create Virtual Environment
 ```bash
 # Using venv
 python -m venv origaker_env
@@ -823,7 +726,7 @@ conda create -n origaker python=3.8
 conda activate origaker
 ```
 
-### Step 3: Install Dependencies
+### Step 4: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -840,7 +743,7 @@ opencv-python==4.7.0
 open3d==0.17.0
 ```
 
-### Step 4: Verify Installation
+### Step 5: Verify Installation
 ```bash
 python scripts/smoke_test.py
 ```
@@ -855,169 +758,7 @@ Expected output:
 
 ---
 
-## 💻 Usage
-
-### Quick Start: Pre-trained Model Demo
-```bash
-python demo.py --mode full --terrain maze --gui
-```
-
-**Arguments:**
-- `--mode`: `full` | `cpg_only` | `rl_only` | `fixed`
-- `--terrain`: `flat` | `maze` | `slopes` | `obstacles` | `mixed`
-- `--gui`: Launch PyBullet GUI (default: headless)
-
-### Training from Scratch
-
-#### 1. Train PPO Agent
-```bash
-python train.py \
-  --total-timesteps 1000000 \
-  --save-freq 20000 \
-  --log-dir logs/ \
-  --model-save-path models/ppo_origaker \
-  --domain-randomization
-```
-
-**Monitor Training:**
-```bash
-tensorboard --logdir=logs/
-```
-
-#### 2. Evaluate Trained Policy
-```bash
-python evaluate.py \
-  --model models/ppo_origaker_best.zip \
-  --num-episodes 50 \
-  --render
-```
-
-### Custom Terrain Generation
-```bash
-python scripts/generate_terrain.py \
-  --type maze \
-  --complexity 0.7 \
-  --size 10x10 \
-  --obstacles 15 \
-  --save-path terrains/custom_maze.urdf
-```
-
-### SLAM Visualization
-```bash
-python scripts/visualize_slam.py \
-  --replay-log logs/slam_episode_042.pkl \
-  --show-pointcloud \
-  --export-video
-```
-
-### Morphology Mode Testing
-```bash
-python scripts/test_morphology.py \
-  --modes crawler walker spreader high_step \
-  --transitions-only \
-  --save-metrics results/morphology_test.csv
-```
-
----
-
-## 📁 Project Structure
-```
-origaker_sources/
-│
-├── 📄 README.md                    ← You are here
-├── 📄 requirements.txt             ← Python dependencies
-├── 📄 LICENSE                      ← MIT License
-│
-├── 📂 assets/                      ← Media assets
-│   ├── figures/                    ← Paper figures
-│   ├── demos/                      ← GIFs and videos
-│   └── models/                     ← 3D models (URDF, meshes)
-│
-├── 📂 origaker_urdf/               ← Robot model files
-│   ├── origaker.urdf               ← Main URDF description
-│   ├── meshes/                     ← STL collision/visual meshes
-│   └── config/                     ← Joint limits, calibration
-│
-├── 📂 src/                         ← Source code
-│   ├── controllers/
-│   │   ├── cpg_network.py          ← Hybrid Matsuoka+Hopf CPGs
-│   │   ├── rl_agent.py             ← PPO policy wrapper
-│   │   └── torque_controller.py    ← Low-level joint control
-│   │
-│   ├── perception/
-│   │   ├── slam.py                 ← Point cloud SLAM
-│   │   └── terrain_classifier.py   ← Feature extraction
-│   │
-│   ├── planning/
-│   │   ├── astar_planner.py        ← Global path planning
-│   │   └── dwa_controller.py       ← Local trajectory control
-│   │
-│   ├── morphology/
-│   │   ├── mode_selector.py        ← Terrain-aware switching
-│   │   └── interpolator.py         ← Smooth joint transitions
-│   │
-│   └── simulation/
-│       ├── environment.py          ← PyBullet Gym env
-│       ├── domain_randomizer.py    ← Parameter perturbations
-│       └── terrain_generator.py    ← Procedural terrains
-│
-├── 📂 scripts/                     ← Utility scripts
-│   ├── train.py                    ← PPO training pipeline
-│   ├── evaluate.py                 ← Model evaluation
-│   ├── demo.py                     ← Interactive demo
-│   ├── smoke_test.py               ← Basic sanity checks
-│   ├── visualize_slam.py           ← SLAM replay tool
-│   └── generate_terrain.py         ← Custom terrain creator
-│
-├── 📂 configs/                     ← Configuration files
-│   ├── training_config.yaml        ← PPO hyperparameters
-│   ├── cpg_params.json             ← Optimized CPG library
-│   └── morphology_modes.json       ← Joint configurations
-│
-├── 📂 logs/                        ← Training logs (TensorBoard)
-├── 📂 models/                      ← Saved model checkpoints
-├── 📂 results/                     ← Evaluation metrics (CSV)
-├── 📂 tests/                       ← Unit tests
-│
-└── 📂 docs/                        ← Documentation
-    ├── PAPER.pdf                   ← Full MSc thesis
-    ├── ARCHITECTURE.md             ← System design details
-    ├── API_REFERENCE.md            ← Code documentation
-    └── TUTORIAL.ipynb              ← Jupyter tutorial notebook
-```
-
----
-
-## 📖 Citation
-
-If you use this work in your research, please cite:
-```bibtex
-@mastersthesis{masone2025origaker,
-  title={Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design},
-  author={Masone, Giacomo Demetrio},
-  year={2025},
-  school={King's College London},
-  type={MSc Thesis},
-  department={Engineering Department},
-  supervisor={Spyrakos-Papastavridis, Emmanouil}
-}
-```
-
-**Related Publications:**
-```bibtex
-@article{tang2022origaker,
-  title={Origaker: A Novel Multi-Mimicry Quadruped Robot Based on a Metamorphic Mechanism},
-  author={Tang, Z. and Wang, K. and Spyrakos-Papastavridis, E. and Dai, J.S.},
-  journal={Journal of Mechanisms and Robotics},
-  volume={14},
-  number={6},
-  year={2022}
-}
-```
-
----
-
-## 🔮 Future Work
+## 11. Future Work
 
 ### Short-Term Extensions
 
@@ -1082,7 +823,36 @@ If you use this work in your research, please cite:
 
 ---
 
-## 🙏 Acknowledgements
+## 12. References
+
+If you use this work in your research, please cite:
+```bibtex
+@mastersthesis{masone2025origaker,
+  title={Enhancing Metamorphic Legged Robot Locomotion Using Machine Learning and Nature-Inspired Design},
+  author={Masone, Giacomo Demetrio},
+  year={2025},
+  school={King's College London},
+  type={MSc Thesis},
+  department={Engineering Department},
+  supervisor={Spyrakos-Papastavridis, Emmanouil}
+}
+```
+
+**Related Publications:**
+```bibtex
+@article{tang2022origaker,
+  title={Origaker: A Novel Multi-Mimicry Quadruped Robot Based on a Metamorphic Mechanism},
+  author={Tang, Z. and Wang, K. and Spyrakos-Papastavridis, E. and Dai, J.S.},
+  journal={Journal of Mechanisms and Robotics},
+  volume={14},
+  number={6},
+  year={2022}
+}
+```
+
+---
+
+## 13. Acknowledgements
 
 This research was conducted at **King's College London** as part of the MSc Robotics program.
 
@@ -1110,66 +880,8 @@ This project builds upon foundational work:
 - **My Parents** – *Driving force behind every achievement*  
   *For their unconditional love, sacrifice, and belief in my potential*
 
----
+### **Related Publications**
 
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### Third-Party Licenses
-- PyBullet: Zlib License
-- Stable-Baselines3: MIT License
-- Open3D: MIT License
-
----
-
-## 📬 Contact
-
-**Giacomo Demetrio Masone**  
-MSc Robotics, King's College London  
-
-📧 Email: [your.email@kcl.ac.uk](mailto:your.email@kcl.ac.uk)  
-🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-🐙 GitHub: [@Degas01](https://github.com/Degas01)  
-🎓 Google Scholar: [Your Scholar Profile](https://scholar.google.com)
-
----
-
-<p align="center">
-  <img src="assets/figures/kcl_logo.png" alt="King's College London" height="60"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/figures/robotics_lab_logo.png" alt="Robotics Lab" height="60"/>
-</p>
-
-<p align="center">
-  <sub>Made with ❤️ and a lot of ☕ in London, 2025</sub>
-</p>
-
----
-
-## 📊 Repository Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/Degas01/origaker_sources?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Degas01/origaker_sources?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Degas01/origaker_sources?style=social)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Degas01/origaker_sources)
-![GitHub last commit](https://img.shields.io/github/last-commit/Degas01/origaker_sources)
-![GitHub repo size](https://img.shields.io/github/repo-size/Degas01/origaker_sources)
-
-<p align="center">
-  <strong>⭐ Star this repository if you found it helpful!</strong>
-</p>
-
----
-
-**[⬆ Back to Top](#-origaker-adaptive-metamorphic-legged-robot-locomotion)**
-
-
-
-
-
-
-
-
-
-
+- **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
+- **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
+- **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
