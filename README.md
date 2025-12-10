@@ -259,8 +259,6 @@ Where:
 </table>
 </div>
 
----
-
 ## 4. Hybrid CPG Architecture
 
 #### **Matsuoka Oscillator**
@@ -393,12 +391,20 @@ R = w₁·Δx - w₂·∑(τᵢ·q̇ᵢ) - w₃·‖q̈‖₂
   <em>Reward component analysis over full gait cycle</em>
 </p>
 
+<div align="center">
+
+<table>
+  
 **Component Analysis:**
 | Term | Weight | Purpose | Impact |
 |------|--------|---------|--------|
 | Forward Progress (Δx) | w₁=1.0 | Encourage locomotion | Primary drive |
 | Energy Cost (τ·q̇) | w₂=0.01 | Minimize power | 15% COT reduction |
 | Jerk Penalty (‖q̈‖₂) | w₃=0.005 | Smooth motion | 22% stability ↑ |
+
+</table>
+
+</div>
 
 ### Training Configuration
 
@@ -892,6 +898,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
