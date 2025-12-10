@@ -492,7 +492,7 @@ Depth Camera (640×480, 30Hz)
 ### Local Trajectory Control (DWA)
 
 **Dynamic Window Approach Parameters:**
-```yaml
+---yaml
 Velocity Search Space:
   - Linear: [-0.5, 1.0] m/s
   - Angular: [-π/2, π/2] rad/s
@@ -898,6 +898,7 @@ This project builds upon foundational work:
 - **[Conference Paper]**: "Hybrid CPG-RL for Adaptive Quadruped Locomotion" - *ICRA 2024*
 - **[Workshop Paper]**: "Bio-Inspired Morphology Reconfiguration" - *RSS Workshop 2024*  
 - **[Journal Article]**: "Simulation-to-Reality Transfer in Legged Robotics" - *Nature Robotics 2024*
+
 
 
 
