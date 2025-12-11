@@ -106,8 +106,6 @@ This project presents a **unified simulation-based framework** enabling autonomo
  - **Dynamic reconfiguration** (Terrain-aware morphology switching)
  - **Robust generalization** (Domain randomization)
 
----
-
 ## Key Features
 
 ### **Hybrid CPG-RL Control**
@@ -187,6 +185,8 @@ This project presents a **unified simulation-based framework** enabling autonomo
 - **Logic**: Rule-based classifier → mode selection
 - **Execution**: Joint-space interpolation (0.5s transition time)
 
+---
+
 ## 3. Simulation Environment
 
 ### PyBullet Configuration
@@ -258,6 +258,8 @@ Where:
 
 </table>
 </div>
+
+---
 
 ## 4. Hybrid CPG Architecture
 
@@ -341,6 +343,7 @@ Two-dimensional system with stable limit cycle:
 </table>
 
 </div>
+
 ---
 
 ## 5. Reinforcement Learning Framework
@@ -433,6 +436,8 @@ Max Grad Norm: 0.5
 - **300k steps**: Energy-efficient gait emerges
 - **500k steps**: Stable morphology transitions
 - **1M steps**: Convergence with 30% improvement vs. baseline
+
+---
 
 ## 6. SLAM & Planning Pipeline
 
@@ -929,4 +934,5 @@ This project builds upon foundational work:
 - **Origaker Platform** – Tang et al. (2022)
 - **Stable-Baselines3** – Raffin et al.
 - **PyBullet** – Erwin Coumans & team
+
 
