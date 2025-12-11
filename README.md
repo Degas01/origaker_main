@@ -512,6 +512,8 @@ Scoring Weights:
   - clearance: 0.3
   - velocity: 0.3
 
+---
+
 ## 7. Morphology Reconfiguration
 
 ### Discrete Locomotion Modes
@@ -604,6 +606,8 @@ def interpolate_morphology(current_config, target_config, duration=0.5):
 - **Transition Time**: 0.5s (prevents dynamic instability)
 - **Max Angular Velocity**: 2.0 rad/s
 - **Kinematic Limits**: Joint angles within [−π, π]
+
+---
 
 ## 8. Results
 
@@ -721,8 +725,6 @@ No Domain Randomization:                 █████████████
   <video src="https://github.com/user-attachments/assets/fc8dd0fc-3afa-443e-b01d-a1207a11df69" width="700" controls muted autoplay loop></video>
 </p>
 
----
-
 ### 2. Autonomous Morphology Switching
 
 <p align="center">
@@ -735,7 +737,7 @@ No Domain Randomization:                 █████████████
 
 ---
 
-## Installation
+## 10. Installation
 
 ### Prerequisites
 
@@ -934,5 +936,3 @@ This project builds upon foundational work:
 - **Origaker Platform** – Tang et al. (2022)
 - **Stable-Baselines3** – Raffin et al.
 - **PyBullet** – Erwin Coumans & team
-
-
